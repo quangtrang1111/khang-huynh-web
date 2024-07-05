@@ -1,6 +1,7 @@
 {
   "hosting": {
-    "public": "dist/khang-huynh-web/browser",
+    "site": "khanghuynh",
+    "public": "public",
     "ignore": [
       "firebase.json",
       "**/.*",
