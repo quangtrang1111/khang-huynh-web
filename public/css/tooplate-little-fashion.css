@@ -163,7 +163,7 @@ a:hover {
 
 .lead {
   font-size: 1.5rem;
-  font-weight: var(--font-weight-thin);
+  font-style: italic;
 }
 
 b,
@@ -491,6 +491,11 @@ strong {
   padding-bottom: 7rem;
 }
 
+.contact.section-padding {
+  padding-bottom: 7rem;
+  padding-top: 5rem;
+}
+
 .site-header.section-padding-img {
   padding-top: 10rem;
   padding-bottom: 10rem;
@@ -667,7 +672,7 @@ strong {
 .slick-testimonial-caption {
   quotes: '❝' '❞';
   position: relative;
-  padding: 5rem 7rem;
+  padding: 1rem 7rem;
 }
 
 .slick-testimonial-caption::before {
@@ -691,7 +696,8 @@ strong {
   display: inline-block;
   vertical-align: top;
   width: 16%;
-  height: 1px;
+  height: 5px;
+  cursor: pointer;
 }
 
 .slick-testimonial .slick-dots button {
@@ -703,6 +709,10 @@ strong {
   height: 0;
   margin: 0;
   padding: 0;
+}
+
+.slick-testimonial .slick-dots button:focus-visible {
+  display: none;
 }
 
 .slick-testimonial .slick-dots li:hover,
@@ -720,7 +730,7 @@ section {
 
 .section-padding {
   padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-bottom: 0rem;
 }
 
 .featured {
@@ -790,20 +800,18 @@ button:focus:not(:focus-visible) {
 }
 
 .accordion-body {
-  padding: 2rem 0;
+  padding-top: 2rem;
 }
 
 /*---------------------------------------
   TEAM MEMBERS               
 -----------------------------------------*/
-.team {
-  background: var(--grey-color);
-}
 
 .team-thumb {
   background: var(--white-color);
   position: relative;
-  border-radius: .25rem;
+  border: 0.2rem var(--grey-color) solid;
+  border-radius: 1rem;
   padding: 42px 32px;
 }
 
@@ -911,6 +919,7 @@ button:focus:not(:focus-visible) {
 
 .product-info {
   padding: 30px 20px;
+  padding-bottom: 0;
 }
 
 .product-description,
@@ -1149,7 +1158,7 @@ button:focus:not(:focus-visible) {
   }
 
   .slick-testimonial-caption {
-    padding: 6rem 3rem 4rem 3rem;
+    padding: 5rem 3rem 4rem 3rem;
   }
 
   .slick-slideshow .slick-dots li {
@@ -1180,3 +1189,10 @@ button:focus:not(:focus-visible) {
   }
 }
 
+.contact-grid {
+  display: flex;
+}
+
+.contact-grid .row{
+  align-content: center;
+}
