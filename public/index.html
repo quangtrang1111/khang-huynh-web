@@ -1,1646 +1,1843 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="" />
+    <meta name="author" content="" />
 
     <title>Khang Huynh video editor</title>
     <link rel="icon" href="favicon.ico" />
 
     <!-- CSS FILES -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/bootstrap-icons.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/bootstrap-icons.css" rel="stylesheet" />
 
     <link rel="stylesheet" href="css/slick.css" />
 
-    <link href="css/tooplate-little-fashion.css" rel="stylesheet">
-</head>
+    <link href="css/tooplate-little-fashion.css" rel="stylesheet" />
+  </head>
 
-<body>
-
+  <body>
     <section class="preloader">
-        <div class="spinner">
-            <span class="sk-inner-circle"></span>
-        </div>
+      <div class="spinner">
+        <span class="sk-inner-circle"></span>
+      </div>
     </section>
 
     <main>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-        <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand" href="index.html">
+            <strong><span>Khang Huynh</span> Editor</strong>
+          </a>
+
+          <div class="d-lg-none"></div>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#video">My services</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#client">Clients</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section class="slick-slideshow">
+        <div class="slick-custom">
+          <img src="images/THUM.webp" class="img-fluid" alt="" />
+
+          <div class="slick-bottom">
             <div class="container">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+              <div class="row">
+                <div class="col-lg-6 col-10">
+                  <h1 class="slick-title">VIDEO EDITING EXPERT</h1>
 
-                <a class="navbar-brand" href="index.html">
-                    <strong><span>Khang Huynh</span> Editor</strong>
-                </a>
+                  <p class="lead text-white mt-lg-3 mb-lg-5"></p>
 
-                <div class="d-lg-none">
-
+                  <a href="#contact" class="btn custom-btn">Work with me</a>
                 </div>
-
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav mx-auto">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="index.html">Home</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">About</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="#video">Videos</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="#client">Clients</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                </div>
+              </div>
             </div>
-        </nav>
+          </div>
+        </div>
 
-        <section class="slick-slideshow">
-            <div class="slick-custom">
-                <img src="images/slideshow/team-meeting-renewable-energy-project.jpeg" class="img-fluid" alt="">
+        <div class="slick-custom">
+          <img
+            src="images/pexels-ron-lach-8102677.webp"
+            class="img-fluid"
+            alt=""
+          />
 
-                <div class="slick-bottom">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-6 col-10">
-                                <h1 class="slick-title">New Design</h1>
-
-                                <p class="lead text-white mt-lg-3 mb-lg-5">Please share this Little Fashion template to
-                                    your friends. Thank you for supporting us.</p>
-
-                                <a href="#video" class="btn custom-btn">Explore videos</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="slick-custom">
-                <img src="images/slideshow/medium-shot-business-women-high-five.jpeg" class="img-fluid" alt="">
-
-                <div class="slick-bottom">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-6 col-10">
-                                <h1 class="slick-title">Cool Fashion</h1>
-
-                                <p class="lead text-white mt-lg-3 mb-lg-5">Little fashion template comes with total 8
-                                    HTML pages provided by Tooplate website.</p>
-
-                                <a href="#client" class="btn custom-btn">Check my reviews</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="slick-custom">
-                <img src="images/slideshow/two-business-partners-working-together-office-computer.jpeg"
-                    class="img-fluid" alt="">
-
-                <div class="slick-bottom">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-6 col-10">
-                                <h1 class="slick-title">Talk to us</h1>
-
-                                <p class="lead text-white mt-lg-3 mb-lg-5">Tooplate is one of the best HTML CSS template
-                                    websites for everyone.</p>
-
-                                <a href="#contact" class="btn custom-btn">Work with me</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </section>
-
-        <section id="about" class="about section-padding">
+          <div class="slick-bottom">
             <div class="container">
-                <div class="row">
+              <div class="row">
+                <div class="col-lg-6 col-10">
+                  <h1 class="slick-title">BUILD YOUR BRAND</h1>
 
-                    <div class="col-12 text-center">
-                        <h2 class="mb-5">About me</h2>
-                    </div>
+                  <p class="lead text-white mt-lg-3 mb-lg-5"></p>
 
-                    <div class="col-lg-2 col-12 mt-auto mb-auto">
-                        <ul class="nav nav-pills mb-5 mx-auto justify-content-center align-items-center" id="pills-tab"
-                            role="tablist">
-                            <li class="nav-item" role="presentation">
-                                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
-                                    data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
-                                    aria-selected="true">Introduction</button>
-                            </li>
-
-                            <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="pills-youtube-tab" data-bs-toggle="pill"
-                                    data-bs-target="#pills-youtube" type="button" role="tab"
-                                    aria-controls="pills-youtube" aria-selected="true">How we work?</button>
-                            </li>
-
-                            <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="pills-skill-tab" data-bs-toggle="pill"
-                                    data-bs-target="#pills-skill" type="button" role="tab" aria-controls="pills-skill"
-                                    aria-selected="false">Capabilites</button>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="col-lg-10 col-12">
-                        <div class="tab-content mt-2" id="pills-tabContent">
-                            <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
-                                aria-labelledby="pills-home-tab">
-
-                                <div class="row">
-                                    <div class="col-lg-7 col-12">
-                                        <img src="images/pim-chu-z6NZ76_UTDI-unsplash.jpeg" class="img-fluid" alt="">
-                                    </div>
-
-                                    <div class="col-lg-5 col-12">
-                                        <div class="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
-                                            <h4 class="mb-3">Good <span>Design</span> <br>Ideas for <span>your</span>
-                                                fashion</h4>
-
-                                            <p>Little Fashion templates comes with <a href="sign-in.html">sign in</a> /
-                                                <a href="sign-up.html">sign up</a> pages, product listing / product
-                                                detail, about, FAQs, and contact page.
-                                            </p>
-
-                                            <p>Since this HTML template is based on Boostrap 5 CSS library, you can feel
-                                                free to add more components as you need.</p>
-
-                                            <div class="mt-2 mt-lg-auto">
-                                                <a href="about.html" class="custom-link mb-2">
-                                                    Learn more about us
-                                                    <i class="bi-arrow-right ms-2"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="tab-pane fade" id="pills-youtube" role="tabpanel"
-                                aria-labelledby="pills-youtube-tab">
-
-                                <div class="row">
-                                    <div class="col-lg-7 col-12">
-                                        <div class="ratio ratio-16x9">
-                                            <iframe src="https://www.youtube-nocookie.com/embed/f_7JqPDWhfw?controls=0"
-                                                title="YouTube video player" frameborder="0"
-                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                                allowfullscreen loading="lazy"></iframe>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-5 col-12">
-                                        <div class="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
-                                            <h4 class="mb-3">Life at Studio</h4>
-
-                                            <p>Over three years in business, We’ve had the chance to work on a variety
-                                                of projects, with companies</p>
-
-                                            <p>Custom work is branding, web design, UI/UX design</p>
-
-                                            <div class="mt-2 mt-lg-auto">
-                                                <a href="contact.html" class="custom-link mb-2">
-                                                    Work with us
-                                                    <i class="bi-arrow-right ms-2"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="tab-pane fade" id="pills-skill" role="tabpanel"
-                                aria-labelledby="pills-skill-tab">
-                                <div class="row">
-                                    <div class="col-lg-7 col-12">
-                                        <img src="images/cody-lannom-G95AReIh_Ko-unsplash.jpeg" class="img-fluid"
-                                            alt="">
-                                    </div>
-
-                                    <div class="col-lg-5 col-12">
-                                        <div class="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
-                                            <h4 class="mb-3">What can help you?</h4>
-
-                                            <p>Over three years in business, We’ve had the chance on projects</p>
-
-                                            <div class="skill-thumb mt-3">
-
-                                                <strong>Branding</strong>
-                                                <span class="float-end">90%</span>
-                                                <div class="progress">
-                                                    <div class="progress-bar progress-bar-primary" role="progressbar"
-                                                        aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"
-                                                        style="width: 90%;"></div>
-                                                </div>
-
-                                                <strong>Design & Stragety</strong>
-                                                <span class="float-end">70%</span>
-                                                <div class="progress">
-                                                    <div class="progress-bar progress-bar-primary" role="progressbar"
-                                                        aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
-                                                        style="width: 70%;"></div>
-                                                </div>
-
-                                                <strong>Online Platform</strong>
-                                                <span class="float-end">80%</span>
-                                                <div class="progress">
-                                                    <div class="progress-bar progress-bar-primary" role="progressbar"
-                                                        aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"
-                                                        style="width: 80%;"></div>
-                                                </div>
-
-                                            </div>
-
-                                            <div class="mt-2 mt-lg-auto">
-                                                <a href="products.html" class="custom-link mb-2">
-                                                    Explore products
-                                                    <i class="bi-arrow-right ms-2"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
+                  <a href="#video" class="btn custom-btn">My services</a>
                 </div>
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
 
-        <section id="video" class="featured-product section-padding">
+        <div class="slick-custom">
+          <img
+            src="images/filming-4371566_1920.webp"
+            class="img-fluid"
+            alt=""
+          />
+
+          <div class="slick-bottom">
             <div class="container">
-                <div class="row">
+              <div class="row">
+                <div class="col-lg-6 col-10">
+                  <h1 class="slick-title">REACH MORE CLIENTS</h1>
 
-                    <div class="col-12 text-center">
-                        <h2 class="mb-5">Featured Videos</h2>
+                  <p class="lead text-white mt-lg-3 mb-lg-5"></p>
+
+                  <a href="#client" class="btn custom-btn">Client reviews</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about section-padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center">
+              <h2 class="mb-5">About me</h2>
+            </div>
+
+            <div class="col-lg-2 col-12 mt-auto mb-auto">
+              <ul
+                class="nav nav-pills mb-5 mx-auto justify-content-center align-items-center"
+                id="pills-tab"
+                role="tablist"
+              >
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link active"
+                    id="pills-youtube-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-youtube"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-youtube"
+                    aria-selected="true"
+                  >
+                    Introductions
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="pills-home-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-home"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-home"
+                    aria-selected="true"
+                  >
+                    My experience
+                  </button>
+                </li>
+
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="pills-skill-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-skill"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-skill"
+                    aria-selected="false"
+                  >
+                    My passion
+                  </button>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-10 col-12">
+              <div class="tab-content mt-2" id="pills-tabContent">
+                <div
+                  class="tab-pane fade show active"
+                  id="pills-youtube"
+                  role="tabpanel"
+                  aria-labelledby="pills-youtube-tab"
+                >
+                  <div class="row">
+                    <div class="col-lg-7 col-12">
+                      <div>
+                        <iframe
+                          width="100%"
+                          height="400"
+                          src="https://www.youtube.com/embed/YlHSd02QCsM?si=37mb8vkqyKjRF13m"
+                          title="YouTube video player"
+                          frameborder="0"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                          referrerpolicy="strict-origin-when-cross-origin"
+                          allowfullscreen
+                          loading="lazy"
+                        ></iframe>
+                      </div>
                     </div>
 
-                    <div class="col-12">
-                        <h4><span>Ads</span></h4>
+                    <div class="col-lg-5 col-12">
+                      <div
+                        class="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5"
+                      >
+                        <p>
+                          Hi there, I’m Khang. If you want to find a
+                          professional video editor to help grow up your
+                          personal brand or make marketing videos to highlight
+                          yourself and your products, I'm the one you need.
+                        </p>
+
+                        <p>
+                          I Specialize in editing talking head and faceless
+                          videos for social platforms, I also edit videos for
+                          websites, workshops, seminars, testimonials, events...
+                          to help you reach more viewers.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="pills-home"
+                  role="tabpanel"
+                  aria-labelledby="pills-home-tab"
+                >
+                  <div class="row">
+                    <div class="col-lg-7 col-12">
+                      <img src="images/upwork.webp" class="img-fluid" alt="" />
                     </div>
 
-                    <div class="accordion" id="videoAds">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingVideo1">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#videoAds1" aria-expanded="true" aria-controls="videoAds1">
-                                    Product
-                                </button>
-                            </h2>
-
-                            <div id="videoAds1" class="accordion-collapse collapse" data-bs-parent="#videoAds">
-
-                                <div class="accordion-body row">
-                                    <div class="col-lg-4 col-12 mb-3">
-                                        <div class="product-thumb">
-
-                                            <iframe width="100%" height="300"
-                                                src="https://www.youtube.com/embed/mOU9c-xaI-Q?si=kfmT-tR6vYx5TGFV&amp;controls=0"
-                                                title="YouTube video player" frameborder="0"
-                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
-                                                loading="lazy"></iframe>
-
-                                            <div class="product-info d-flex">
-                                                <div>
-                                                    <h5 class="product-title mb-0">
-                                                        <a class="product-title-link">Tree pot</a>
-                                                    </h5>
-
-                                                    <p class="product-p">Original package design from house</p>
-                                                </div>
-
-                                                <small class="product-price text-muted ms-auto mt-auto mb-5">$25</small>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-4 col-12 mb-3">
-                                        <div class="product-thumb">
-
-                                            <iframe width="100%" height="300"
-                                                src="https://www.youtube.com/embed/KLuTLF3x9sA?si=jAPGgYxDieFe2fcT&amp;controls=0"
-                                                title="YouTube video player" frameborder="0"
-                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
-                                                loading="lazy"></iframe>
-
-                                            <div class="product-info d-flex">
-                                                <div>
-                                                    <h5 class="product-title mb-0">
-                                                        <a class="product-title-link">Fashion Set</a>
-                                                    </h5>
-
-                                                    <p class="product-p">Costume Package</p>
-                                                </div>
-
-                                                <small class="product-price text-muted ms-auto mt-auto mb-5">$35</small>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-4 col-12">
-                                        <div class="product-thumb">
-                                            <iframe width="100%" height="300"
-                                                src="https://www.youtube.com/embed/RK1K2bCg4J8?si=y4WTa9GPGArF6ySI&amp;controls=0"
-                                                title="YouTube video player" frameborder="0"
-                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
-                                                loading="lazy"></iframe>
-
-                                            <div class="product-info d-flex">
-                                                <div>
-                                                    <h5 class="product-title mb-0">
-                                                        <a class="product-title-link">Juice Drinks</a>
-                                                    </h5>
-
-                                                    <p class="product-p">Nature made another world</p>
-                                                </div>
-
-                                                <small class="product-price text-muted ms-auto mt-auto mb-5">$45</small>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#videoAds2" aria-expanded="true" aria-controls="videoAds2">
-                                    Course
-                                </button>
-                            </h2>
-
-                            <div id="videoAds2" class="accordion-collapse collapse" data-bs-parent="#videoAds">
-
-                                <div class="accordion-body row">
-                                    <div class="col-lg-4 col-12 mb-3">
-                                        <div class="product-thumb">
-
-                                            <iframe width="100%" height="300"
-                                                src="https://www.youtube.com/embed/mOU9c-xaI-Q?si=kfmT-tR6vYx5TGFV&amp;controls=0"
-                                                title="YouTube video player" frameborder="0"
-                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
-                                                loading="lazy"></iframe>
-
-                                            <div class="product-info d-flex">
-                                                <div>
-                                                    <h5 class="product-title mb-0">
-                                                        <a class="product-title-link">Tree pot</a>
-                                                    </h5>
-
-                                                    <p class="product-p">Original package design from house</p>
-                                                </div>
-
-                                                <small class="product-price text-muted ms-auto mt-auto mb-5">$25</small>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-4 col-12 mb-3">
-                                        <div class="product-thumb">
-
-                                            <iframe width="100%" height="300"
-                                                src="https://www.youtube.com/embed/KLuTLF3x9sA?si=jAPGgYxDieFe2fcT&amp;controls=0"
-                                                title="YouTube video player" frameborder="0"
-                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
-                                                loading="lazy"></iframe>
-
-                                            <div class="product-info d-flex">
-                                                <div>
-                                                    <h5 class="product-title mb-0">
-                                                        <a class="product-title-link">Fashion Set</a>
-                                                    </h5>
-
-                                                    <p class="product-p">Costume Package</p>
-                                                </div>
-
-                                                <small class="product-price text-muted ms-auto mt-auto mb-5">$35</small>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-4 col-12">
-                                        <div class="product-thumb">
-                                            <iframe width="100%" height="300"
-                                                src="https://www.youtube.com/embed/RK1K2bCg4J8?si=y4WTa9GPGArF6ySI&amp;controls=0"
-                                                title="YouTube video player" frameborder="0"
-                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
-                                                loading="lazy"></iframe>
-
-                                            <div class="product-info d-flex">
-                                                <div>
-                                                    <h5 class="product-title mb-0">
-                                                        <a class="product-title-link">Juice Drinks</a>
-                                                    </h5>
-
-                                                    <p class="product-p">Nature made another world</p>
-                                                </div>
-
-                                                <small class="product-price text-muted ms-auto mt-auto mb-5">$45</small>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#videoAds3" aria-expanded="true" aria-controls="videoAds3">
-                                    Service
-                                </button>
-                            </h2>
-
-                            <div id="videoAds3" class="accordion-collapse collapse" data-bs-parent="#videoAds">
-
-                                <div class="accordion-body row">
-                                    <div class="col-lg-4 col-12 mb-3">
-                                        <div class="product-thumb">
-
-                                            <iframe width="100%" height="300"
-                                                src="https://www.youtube.com/embed/mOU9c-xaI-Q?si=kfmT-tR6vYx5TGFV&amp;controls=0"
-                                                title="YouTube video player" frameborder="0"
-                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
-                                                loading="lazy"></iframe>
-
-                                            <div class="product-info d-flex">
-                                                <div>
-                                                    <h5 class="product-title mb-0">
-                                                        <a class="product-title-link">Tree pot</a>
-                                                    </h5>
-
-                                                    <p class="product-p">Original package design from house</p>
-                                                </div>
-
-                                                <small class="product-price text-muted ms-auto mt-auto mb-5">$25</small>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-4 col-12 mb-3">
-                                        <div class="product-thumb">
-
-                                            <iframe width="100%" height="300"
-                                                src="https://www.youtube.com/embed/KLuTLF3x9sA?si=jAPGgYxDieFe2fcT&amp;controls=0"
-                                                title="YouTube video player" frameborder="0"
-                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
-                                                loading="lazy"></iframe>
-
-                                            <div class="product-info d-flex">
-                                                <div>
-                                                    <h5 class="product-title mb-0">
-                                                        <a class="product-title-link">Fashion Set</a>
-                                                    </h5>
-
-                                                    <p class="product-p">Costume Package</p>
-                                                </div>
-
-                                                <small class="product-price text-muted ms-auto mt-auto mb-5">$35</small>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-4 col-12">
-                                        <div class="product-thumb">
-                                            <iframe width="100%" height="300"
-                                                src="https://www.youtube.com/embed/RK1K2bCg4J8?si=y4WTa9GPGArF6ySI&amp;controls=0"
-                                                title="YouTube video player" frameborder="0"
-                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
-                                                loading="lazy"></iframe>
-
-                                            <div class="product-info d-flex">
-                                                <div>
-                                                    <h5 class="product-title mb-0">
-                                                        <a class="product-title-link">Juice Drinks</a>
-                                                    </h5>
-
-                                                    <p class="product-p">Nature made another world</p>
-                                                </div>
-
-                                                <small class="product-price text-muted ms-auto mt-auto mb-5">$45</small>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#videoAds4" aria-expanded="true" aria-controls="videoAds4">
-                                    Testimonial
-                                </button>
-                            </h2>
-
-                            <div id="videoAds4" class="accordion-collapse collapse" data-bs-parent="#videoAds">
-
-                                <div class="accordion-body row">
-                                    <div class="col-lg-4 col-12 mb-3">
-                                        <div class="product-thumb">
-
-                                            <iframe width="100%" height="300"
-                                                src="https://www.youtube.com/embed/mOU9c-xaI-Q?si=kfmT-tR6vYx5TGFV&amp;controls=0"
-                                                title="YouTube video player" frameborder="0"
-                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
-                                                loading="lazy"></iframe>
-
-                                            <div class="product-info d-flex">
-                                                <div>
-                                                    <h5 class="product-title mb-0">
-                                                        <a class="product-title-link">Tree pot</a>
-                                                    </h5>
-
-                                                    <p class="product-p">Original package design from house</p>
-                                                </div>
-
-                                                <small class="product-price text-muted ms-auto mt-auto mb-5">$25</small>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-4 col-12 mb-3">
-                                        <div class="product-thumb">
-
-                                            <iframe width="100%" height="300"
-                                                src="https://www.youtube.com/embed/KLuTLF3x9sA?si=jAPGgYxDieFe2fcT&amp;controls=0"
-                                                title="YouTube video player" frameborder="0"
-                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
-                                                loading="lazy"></iframe>
-
-                                            <div class="product-info d-flex">
-                                                <div>
-                                                    <h5 class="product-title mb-0">
-                                                        <a class="product-title-link">Fashion Set</a>
-                                                    </h5>
-
-                                                    <p class="product-p">Costume Package</p>
-                                                </div>
-
-                                                <small class="product-price text-muted ms-auto mt-auto mb-5">$35</small>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-4 col-12">
-                                        <div class="product-thumb">
-                                            <iframe width="100%" height="300"
-                                                src="https://www.youtube.com/embed/RK1K2bCg4J8?si=y4WTa9GPGArF6ySI&amp;controls=0"
-                                                title="YouTube video player" frameborder="0"
-                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
-                                                loading="lazy"></iframe>
-
-                                            <div class="product-info d-flex">
-                                                <div>
-                                                    <h5 class="product-title mb-0">
-                                                        <a class="product-title-link">Juice Drinks</a>
-                                                    </h5>
-
-                                                    <p class="product-p">Nature made another world</p>
-                                                </div>
-
-                                                <small class="product-price text-muted ms-auto mt-auto mb-5">$45</small>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="col-lg-5 col-12">
+                      <div
+                        class="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5"
+                      >
+                        <p>
+                          I have more than 3 years of experience in the
+                          industry. Starting my career as a freelancer, up to
+                          now I can be confident to let you know that I’m one of
+                          video editing experts.
+                        </p>
+                        <p>
+                          My abilities have been proven on the upwork platform,
+                          one of the largest freelancer platforms globally.
+                        </p>
+                      </div>
                     </div>
-
-                    <div class="col-12">
-                        <h4 class="mt-5"><span>Youtube</span></h4>
-                    </div>
-
-                    <div class="accordion" id="videoYoutube">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingVideo2">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#videoYoutube1" aria-expanded="true" aria-controls="videoYoutube1">
-                                    Talking Head
-                                </button>
-                            </h2>
-
-                            <div id="videoYoutube1" class="accordion-collapse collapse" data-bs-parent="#videoYoutube">
-
-                                <div class="accordion-body row">
-                                    <div class="col-lg-4 col-12 mb-3">
-                                        <div class="product-thumb">
-
-                                            <iframe width="100%" height="300"
-                                                src="https://www.youtube.com/embed/mOU9c-xaI-Q?si=kfmT-tR6vYx5TGFV&amp;controls=0"
-                                                title="YouTube video player" frameborder="0"
-                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
-                                                loading="lazy"></iframe>
-
-                                            <div class="product-info d-flex">
-                                                <div>
-                                                    <h5 class="product-title mb-0">
-                                                        <a class="product-title-link">Tree pot</a>
-                                                    </h5>
-
-                                                    <p class="product-p">Original package design from house</p>
-                                                </div>
-
-                                                <small class="product-price text-muted ms-auto mt-auto mb-5">$25</small>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-4 col-12 mb-3">
-                                        <div class="product-thumb">
-
-                                            <iframe width="100%" height="300"
-                                                src="https://www.youtube.com/embed/KLuTLF3x9sA?si=jAPGgYxDieFe2fcT&amp;controls=0"
-                                                title="YouTube video player" frameborder="0"
-                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
-                                                loading="lazy"></iframe>
-
-                                            <div class="product-info d-flex">
-                                                <div>
-                                                    <h5 class="product-title mb-0">
-                                                        <a class="product-title-link">Fashion Set</a>
-                                                    </h5>
-
-                                                    <p class="product-p">Costume Package</p>
-                                                </div>
-
-                                                <small class="product-price text-muted ms-auto mt-auto mb-5">$35</small>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-4 col-12">
-                                        <div class="product-thumb">
-                                            <iframe width="100%" height="300"
-                                                src="https://www.youtube.com/embed/RK1K2bCg4J8?si=y4WTa9GPGArF6ySI&amp;controls=0"
-                                                title="YouTube video player" frameborder="0"
-                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
-                                                loading="lazy"></iframe>
-
-                                            <div class="product-info d-flex">
-                                                <div>
-                                                    <h5 class="product-title mb-0">
-                                                        <a class="product-title-link">Juice Drinks</a>
-                                                    </h5>
-
-                                                    <p class="product-p">Nature made another world</p>
-                                                </div>
-
-                                                <small class="product-price text-muted ms-auto mt-auto mb-5">$45</small>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#videoYoutube2" aria-expanded="true" aria-controls="videoYoutube2">
-                                    Faceless
-                                </button>
-                            </h2>
-
-                            <div id="videoYoutube2" class="accordion-collapse collapse" data-bs-parent="#videoYoutube">
-
-                                <div class="accordion-body row">
-                                    <div class="col-lg-4 col-12 mb-3">
-                                        <div class="product-thumb">
-
-                                            <iframe width="100%" height="300"
-                                                src="https://www.youtube.com/embed/mOU9c-xaI-Q?si=kfmT-tR6vYx5TGFV&amp;controls=0"
-                                                title="YouTube video player" frameborder="0"
-                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
-                                                loading="lazy"></iframe>
-
-                                            <div class="product-info d-flex">
-                                                <div>
-                                                    <h5 class="product-title mb-0">
-                                                        <a class="product-title-link">Tree pot</a>
-                                                    </h5>
-
-                                                    <p class="product-p">Original package design from house</p>
-                                                </div>
-
-                                                <small class="product-price text-muted ms-auto mt-auto mb-5">$25</small>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-4 col-12 mb-3">
-                                        <div class="product-thumb">
-
-                                            <iframe width="100%" height="300"
-                                                src="https://www.youtube.com/embed/KLuTLF3x9sA?si=jAPGgYxDieFe2fcT&amp;controls=0"
-                                                title="YouTube video player" frameborder="0"
-                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
-                                                loading="lazy"></iframe>
-
-                                            <div class="product-info d-flex">
-                                                <div>
-                                                    <h5 class="product-title mb-0">
-                                                        <a class="product-title-link">Fashion Set</a>
-                                                    </h5>
-
-                                                    <p class="product-p">Costume Package</p>
-                                                </div>
-
-                                                <small class="product-price text-muted ms-auto mt-auto mb-5">$35</small>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-4 col-12">
-                                        <div class="product-thumb">
-                                            <iframe width="100%" height="300"
-                                                src="https://www.youtube.com/embed/RK1K2bCg4J8?si=y4WTa9GPGArF6ySI&amp;controls=0"
-                                                title="YouTube video player" frameborder="0"
-                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
-                                                loading="lazy"></iframe>
-
-                                            <div class="product-info d-flex">
-                                                <div>
-                                                    <h5 class="product-title mb-0">
-                                                        <a class="product-title-link">Juice Drinks</a>
-                                                    </h5>
-
-                                                    <p class="product-p">Nature made another world</p>
-                                                </div>
-
-                                                <small class="product-price text-muted ms-auto mt-auto mb-5">$45</small>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#videoYoutube3" aria-expanded="true" aria-controls="videoYoutube3">
-                                    Podcast
-                                </button>
-                            </h2>
-
-                            <div id="videoYoutube3" class="accordion-collapse collapse" data-bs-parent="#videoYoutube">
-
-                                <div class="accordion-body row">
-                                    <div class="col-lg-4 col-12 mb-3">
-                                        <div class="product-thumb">
-
-                                            <iframe width="100%" height="300"
-                                                src="https://www.youtube.com/embed/mOU9c-xaI-Q?si=kfmT-tR6vYx5TGFV&amp;controls=0"
-                                                title="YouTube video player" frameborder="0"
-                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
-                                                loading="lazy"></iframe>
-
-                                            <div class="product-info d-flex">
-                                                <div>
-                                                    <h5 class="product-title mb-0">
-                                                        <a class="product-title-link">Tree pot</a>
-                                                    </h5>
-
-                                                    <p class="product-p">Original package design from house</p>
-                                                </div>
-
-                                                <small class="product-price text-muted ms-auto mt-auto mb-5">$25</small>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-4 col-12 mb-3">
-                                        <div class="product-thumb">
-
-                                            <iframe width="100%" height="300"
-                                                src="https://www.youtube.com/embed/KLuTLF3x9sA?si=jAPGgYxDieFe2fcT&amp;controls=0"
-                                                title="YouTube video player" frameborder="0"
-                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
-                                                loading="lazy"></iframe>
-
-                                            <div class="product-info d-flex">
-                                                <div>
-                                                    <h5 class="product-title mb-0">
-                                                        <a class="product-title-link">Fashion Set</a>
-                                                    </h5>
-
-                                                    <p class="product-p">Costume Package</p>
-                                                </div>
-
-                                                <small class="product-price text-muted ms-auto mt-auto mb-5">$35</small>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-4 col-12">
-                                        <div class="product-thumb">
-                                            <iframe width="100%" height="300"
-                                                src="https://www.youtube.com/embed/RK1K2bCg4J8?si=y4WTa9GPGArF6ySI&amp;controls=0"
-                                                title="YouTube video player" frameborder="0"
-                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
-                                                loading="lazy"></iframe>
-
-                                            <div class="product-info d-flex">
-                                                <div>
-                                                    <h5 class="product-title mb-0">
-                                                        <a class="product-title-link">Juice Drinks</a>
-                                                    </h5>
-
-                                                    <p class="product-p">Nature made another world</p>
-                                                </div>
-
-                                                <small class="product-price text-muted ms-auto mt-auto mb-5">$45</small>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-12">
-                        <h4 class="mt-5"><span>Tiktok–Instagram</span></h4>
-                    </div>
-
-                    <div class="accordion" id="videoTiktok">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingVideo3">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#videoTiktok1" aria-expanded="true" aria-controls="videoTiktok1">
-                                    Level 1
-                                </button>
-                            </h2>
-
-                            <div id="videoTiktok1" class="accordion-collapse collapse" data-bs-parent="#videoTiktok">
-
-                                <div class="accordion-body row">
-                                    <div class="col-lg-4 col-12 mb-3">
-                                        <div class="product-thumb">
-
-                                            <iframe width="100%" height="300"
-                                                src="https://www.youtube.com/embed/mOU9c-xaI-Q?si=kfmT-tR6vYx5TGFV&amp;controls=0"
-                                                title="YouTube video player" frameborder="0"
-                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
-                                                loading="lazy"></iframe>
-
-                                            <div class="product-info d-flex">
-                                                <div>
-                                                    <h5 class="product-title mb-0">
-                                                        <a class="product-title-link">Tree pot</a>
-                                                    </h5>
-
-                                                    <p class="product-p">Original package design from house</p>
-                                                </div>
-
-                                                <small class="product-price text-muted ms-auto mt-auto mb-5">$25</small>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-4 col-12 mb-3">
-                                        <div class="product-thumb">
-
-                                            <iframe width="100%" height="300"
-                                                src="https://www.youtube.com/embed/KLuTLF3x9sA?si=jAPGgYxDieFe2fcT&amp;controls=0"
-                                                title="YouTube video player" frameborder="0"
-                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
-                                                loading="lazy"></iframe>
-
-                                            <div class="product-info d-flex">
-                                                <div>
-                                                    <h5 class="product-title mb-0">
-                                                        <a class="product-title-link">Fashion Set</a>
-                                                    </h5>
-
-                                                    <p class="product-p">Costume Package</p>
-                                                </div>
-
-                                                <small class="product-price text-muted ms-auto mt-auto mb-5">$35</small>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-4 col-12">
-                                        <div class="product-thumb">
-                                            <iframe width="100%" height="300"
-                                                src="https://www.youtube.com/embed/RK1K2bCg4J8?si=y4WTa9GPGArF6ySI&amp;controls=0"
-                                                title="YouTube video player" frameborder="0"
-                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
-                                                loading="lazy"></iframe>
-
-                                            <div class="product-info d-flex">
-                                                <div>
-                                                    <h5 class="product-title mb-0">
-                                                        <a class="product-title-link">Juice Drinks</a>
-                                                    </h5>
-
-                                                    <p class="product-p">Nature made another world</p>
-                                                </div>
-
-                                                <small class="product-price text-muted ms-auto mt-auto mb-5">$45</small>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#videoTiktok2" aria-expanded="true" aria-controls="videoTiktok2">
-                                    Level 2
-                                </button>
-                            </h2>
-
-                            <div id="videoTiktok2" class="accordion-collapse collapse" data-bs-parent="#videoTiktok">
-
-                                <div class="accordion-body row">
-                                    <div class="col-lg-4 col-12 mb-3">
-                                        <div class="product-thumb">
-
-                                            <iframe width="100%" height="300"
-                                                src="https://www.youtube.com/embed/mOU9c-xaI-Q?si=kfmT-tR6vYx5TGFV&amp;controls=0"
-                                                title="YouTube video player" frameborder="0"
-                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
-                                                loading="lazy"></iframe>
-
-                                            <div class="product-info d-flex">
-                                                <div>
-                                                    <h5 class="product-title mb-0">
-                                                        <a class="product-title-link">Tree pot</a>
-                                                    </h5>
-
-                                                    <p class="product-p">Original package design from house</p>
-                                                </div>
-
-                                                <small class="product-price text-muted ms-auto mt-auto mb-5">$25</small>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-4 col-12 mb-3">
-                                        <div class="product-thumb">
-
-                                            <iframe width="100%" height="300"
-                                                src="https://www.youtube.com/embed/KLuTLF3x9sA?si=jAPGgYxDieFe2fcT&amp;controls=0"
-                                                title="YouTube video player" frameborder="0"
-                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
-                                                loading="lazy"></iframe>
-
-                                            <div class="product-info d-flex">
-                                                <div>
-                                                    <h5 class="product-title mb-0">
-                                                        <a class="product-title-link">Fashion Set</a>
-                                                    </h5>
-
-                                                    <p class="product-p">Costume Package</p>
-                                                </div>
-
-                                                <small class="product-price text-muted ms-auto mt-auto mb-5">$35</small>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-4 col-12">
-                                        <div class="product-thumb">
-                                            <iframe width="100%" height="300"
-                                                src="https://www.youtube.com/embed/RK1K2bCg4J8?si=y4WTa9GPGArF6ySI&amp;controls=0"
-                                                title="YouTube video player" frameborder="0"
-                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
-                                                loading="lazy"></iframe>
-
-                                            <div class="product-info d-flex">
-                                                <div>
-                                                    <h5 class="product-title mb-0">
-                                                        <a class="product-title-link">Juice Drinks</a>
-                                                    </h5>
-
-                                                    <p class="product-p">Nature made another world</p>
-                                                </div>
-
-                                                <small class="product-price text-muted ms-auto mt-auto mb-5">$45</small>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#videoTiktok3" aria-expanded="true" aria-controls="videoTiktok3">
-                                    Level 3
-                                </button>
-                            </h2>
-
-                            <div id="videoTiktok3" class="accordion-collapse collapse" data-bs-parent="#videoYoutube">
-
-                                <div class="accordion-body row">
-                                    <div class="col-lg-4 col-12 mb-3">
-                                        <div class="product-thumb">
-
-                                            <iframe width="100%" height="300"
-                                                src="https://www.youtube.com/embed/mOU9c-xaI-Q?si=kfmT-tR6vYx5TGFV&amp;controls=0"
-                                                title="YouTube video player" frameborder="0"
-                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
-                                                loading="lazy"></iframe>
-
-                                            <div class="product-info d-flex">
-                                                <div>
-                                                    <h5 class="product-title mb-0">
-                                                        <a class="product-title-link">Tree pot</a>
-                                                    </h5>
-
-                                                    <p class="product-p">Original package design from house</p>
-                                                </div>
-
-                                                <small class="product-price text-muted ms-auto mt-auto mb-5">$25</small>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-4 col-12 mb-3">
-                                        <div class="product-thumb">
-
-                                            <iframe width="100%" height="300"
-                                                src="https://www.youtube.com/embed/KLuTLF3x9sA?si=jAPGgYxDieFe2fcT&amp;controls=0"
-                                                title="YouTube video player" frameborder="0"
-                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
-                                                loading="lazy"></iframe>
-
-                                            <div class="product-info d-flex">
-                                                <div>
-                                                    <h5 class="product-title mb-0">
-                                                        <a class="product-title-link">Fashion Set</a>
-                                                    </h5>
-
-                                                    <p class="product-p">Costume Package</p>
-                                                </div>
-
-                                                <small class="product-price text-muted ms-auto mt-auto mb-5">$35</small>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-4 col-12">
-                                        <div class="product-thumb">
-                                            <iframe width="100%" height="300"
-                                                src="https://www.youtube.com/embed/RK1K2bCg4J8?si=y4WTa9GPGArF6ySI&amp;controls=0"
-                                                title="YouTube video player" frameborder="0"
-                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
-                                                loading="lazy"></iframe>
-
-                                            <div class="product-info d-flex">
-                                                <div>
-                                                    <h5 class="product-title mb-0">
-                                                        <a class="product-title-link">Juice Drinks</a>
-                                                    </h5>
-
-                                                    <p class="product-p">Nature made another world</p>
-                                                </div>
-
-                                                <small class="product-price text-muted ms-auto mt-auto mb-5">$45</small>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-12">
-                        <h4 class="mt-5"><span>Others</span></h4>
-                    </div>
-
-                    <div class="accordion" id="videoOthers">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingVideo4">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#videoOthers1" aria-expanded="true" aria-controls="videoOthers1">
-                                    Memory
-                                </button>
-                            </h2>
-
-                            <div id="videoOthers1" class="accordion-collapse collapse" data-bs-parent="#videoOthers">
-
-                                <div class="accordion-body row">
-                                    <div class="col-lg-4 col-12 mb-3">
-                                        <div class="product-thumb">
-
-                                            <iframe width="100%" height="300"
-                                                src="https://www.youtube.com/embed/mOU9c-xaI-Q?si=kfmT-tR6vYx5TGFV&amp;controls=0"
-                                                title="YouTube video player" frameborder="0"
-                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
-                                                loading="lazy"></iframe>
-
-                                            <div class="product-info d-flex">
-                                                <div>
-                                                    <h5 class="product-title mb-0">
-                                                        <a class="product-title-link">Tree pot</a>
-                                                    </h5>
-
-                                                    <p class="product-p">Original package design from house</p>
-                                                </div>
-
-                                                <small class="product-price text-muted ms-auto mt-auto mb-5">$25</small>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-4 col-12 mb-3">
-                                        <div class="product-thumb">
-
-                                            <iframe width="100%" height="300"
-                                                src="https://www.youtube.com/embed/KLuTLF3x9sA?si=jAPGgYxDieFe2fcT&amp;controls=0"
-                                                title="YouTube video player" frameborder="0"
-                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
-                                                loading="lazy"></iframe>
-
-                                            <div class="product-info d-flex">
-                                                <div>
-                                                    <h5 class="product-title mb-0">
-                                                        <a class="product-title-link">Fashion Set</a>
-                                                    </h5>
-
-                                                    <p class="product-p">Costume Package</p>
-                                                </div>
-
-                                                <small class="product-price text-muted ms-auto mt-auto mb-5">$35</small>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-4 col-12">
-                                        <div class="product-thumb">
-                                            <iframe width="100%" height="300"
-                                                src="https://www.youtube.com/embed/RK1K2bCg4J8?si=y4WTa9GPGArF6ySI&amp;controls=0"
-                                                title="YouTube video player" frameborder="0"
-                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
-                                                loading="lazy"></iframe>
-
-                                            <div class="product-info d-flex">
-                                                <div>
-                                                    <h5 class="product-title mb-0">
-                                                        <a class="product-title-link">Juice Drinks</a>
-                                                    </h5>
-
-                                                    <p class="product-p">Nature made another world</p>
-                                                </div>
-
-                                                <small class="product-price text-muted ms-auto mt-auto mb-5">$45</small>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#videoOthers2" aria-expanded="true" aria-controls="videoOthers2">
-                                    Webinar
-                                </button>
-                            </h2>
-
-                            <div id="videoOthers2" class="accordion-collapse collapse" data-bs-parent="#videoOthers">
-
-                                <div class="accordion-body row">
-                                    <div class="col-lg-4 col-12 mb-3">
-                                        <div class="product-thumb">
-
-                                            <iframe width="100%" height="300"
-                                                src="https://www.youtube.com/embed/mOU9c-xaI-Q?si=kfmT-tR6vYx5TGFV&amp;controls=0"
-                                                title="YouTube video player" frameborder="0"
-                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
-                                                loading="lazy"></iframe>
-
-                                            <div class="product-info d-flex">
-                                                <div>
-                                                    <h5 class="product-title mb-0">
-                                                        <a class="product-title-link">Tree pot</a>
-                                                    </h5>
-
-                                                    <p class="product-p">Original package design from house</p>
-                                                </div>
-
-                                                <small class="product-price text-muted ms-auto mt-auto mb-5">$25</small>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-4 col-12 mb-3">
-                                        <div class="product-thumb">
-
-                                            <iframe width="100%" height="300"
-                                                src="https://www.youtube.com/embed/KLuTLF3x9sA?si=jAPGgYxDieFe2fcT&amp;controls=0"
-                                                title="YouTube video player" frameborder="0"
-                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
-                                                loading="lazy"></iframe>
-
-                                            <div class="product-info d-flex">
-                                                <div>
-                                                    <h5 class="product-title mb-0">
-                                                        <a class="product-title-link">Fashion Set</a>
-                                                    </h5>
-
-                                                    <p class="product-p">Costume Package</p>
-                                                </div>
-
-                                                <small class="product-price text-muted ms-auto mt-auto mb-5">$35</small>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-4 col-12">
-                                        <div class="product-thumb">
-                                            <iframe width="100%" height="300"
-                                                src="https://www.youtube.com/embed/RK1K2bCg4J8?si=y4WTa9GPGArF6ySI&amp;controls=0"
-                                                title="YouTube video player" frameborder="0"
-                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
-                                                loading="lazy"></iframe>
-
-                                            <div class="product-info d-flex">
-                                                <div>
-                                                    <h5 class="product-title mb-0">
-                                                        <a class="product-title-link">Juice Drinks</a>
-                                                    </h5>
-
-                                                    <p class="product-p">Nature made another world</p>
-                                                </div>
-
-                                                <small class="product-price text-muted ms-auto mt-auto mb-5">$45</small>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#videoOthers3" aria-expanded="true" aria-controls="videoOthers3">
-                                    Drone
-                                </button>
-                            </h2>
-
-                            <div id="videoOthers3" class="accordion-collapse collapse" data-bs-parent="#videoOthers">
-
-                                <div class="accordion-body row">
-                                    <div class="col-lg-4 col-12 mb-3">
-                                        <div class="product-thumb">
-                                            <iframe
-                                                src="https://player.vimeo.com/video/969964765?h=015f8b546e&title=0&byline=0&portrait=0"
-                                                width="100%" height="300" loading="lazy" frameborder="0"
-                                                allow="autoplay; fullscreen; picture-in-picture"
-                                                allowfullscreen></iframe>
-
-                                            <div class="product-info d-flex">
-                                                <div>
-                                                    <h5 class="product-title mb-0">
-                                                        <a class="product-title-link">Tree pot</a>
-                                                    </h5>
-
-                                                    <p class="product-p">Original package design from house</p>
-                                                </div>
-
-                                                <small class="product-price text-muted ms-auto mt-auto mb-5">$25</small>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-4 col-12 mb-3">
-                                        <div class="product-thumb">
-                                            <iframe
-                                                src="https://player.vimeo.com/video/969964765?h=015f8b546e&title=0&byline=0&portrait=0"
-                                                width="100%" height="300" loading="lazy" frameborder="0"
-                                                allow="autoplay; fullscreen; picture-in-picture"
-                                                allowfullscreen></iframe>
-
-                                            <div class="product-info d-flex">
-                                                <div>
-                                                    <h5 class="product-title mb-0">
-                                                        <a class="product-title-link">Fashion Set</a>
-                                                    </h5>
-
-                                                    <p class="product-p">Costume Package</p>
-                                                </div>
-
-                                                <small class="product-price text-muted ms-auto mt-auto mb-5">$35</small>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-4 col-12">
-                                        <div class="product-thumb">
-                                            <iframe
-                                                src="https://player.vimeo.com/video/969964765?h=015f8b546e&title=0&byline=0&portrait=0"
-                                                width="100%" height="300" loading="lazy" frameborder="0"
-                                                allow="autoplay; fullscreen; picture-in-picture"
-                                                allowfullscreen></iframe>
-
-                                            <div class="product-info d-flex">
-                                                <div>
-                                                    <h5 class="product-title mb-0">
-                                                        <a class="product-title-link">Juice Drinks</a>
-                                                    </h5>
-
-                                                    <p class="product-p">Nature made another world</p>
-                                                </div>
-
-                                                <small class="product-price text-muted ms-auto mt-auto mb-5">$45</small>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                  </div>
                 </div>
 
+                <div
+                  class="tab-pane fade"
+                  id="pills-skill"
+                  role="tabpanel"
+                  aria-labelledby="pills-skill-tab"
+                >
+                  <div class="row">
+                    <div class="col-lg-7 col-12">
+                      <img src="images/Khang-3.webp" class="img-fluid" alt="" />
+                    </div>
+
+                    <div class="col-lg-5 col-12">
+                      <div
+                        class="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5"
+                      >
+                        <p>Video editing is my passion</p>
+                        <p>
+                          As a professional editor, I always put myself in the
+                          creator's perspective to edit videos at the highest
+                          quality. Quick turnaround time is one of the most
+                          important standards I provide clients. So, I always
+                          put all my energy into my work to bring satisfaction
+                          to clients.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="video" class="featured-product section-padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center">
+              <h2 class="mb-5">My services</h2>
             </div>
-        </section>
 
-        <section id="client" class="team section-padding">
-            <div class="container">
-                <div class="row">
+            <div class="col-12">
+              <ul
+                class="nav nav-pills mb-5 mx-auto justify-content-center align-items-center"
+                id="video-tab"
+                role="tablist"
+              >
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link active"
+                    id="video-ads-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#video-ads"
+                    type="button"
+                    role="tab"
+                    aria-controls="video-ads"
+                    aria-selected="true"
+                  >
+                    <h4><span>Ads</span></h4>
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="video-youtube-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#video-youtube"
+                    type="button"
+                    role="tab"
+                    aria-controls="video-youtube"
+                    aria-selected="true"
+                  >
+                  <h4><span>Youtube</span></h4>
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="video-tiktok-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#video-tiktok"
+                    type="button"
+                    role="tab"
+                    aria-controls="video-tiktok"
+                    aria-selected="true"
+                  >
+                  <h4><span> Tiktok-Instagram</span></h4>
+                  </button>
+                </li>
 
-                    <div class="col-12">
-                        <h2 class="mb-5 text-center">My clients</h2>
-                    </div>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="video-others-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#video-others"
+                    type="button"
+                    role="tab"
+                    aria-controls="video-others"
+                    aria-selected="false"
+                  >
+                  <h4><span>Others</span></h4>
+                  </button>
+                </li>
+              </ul>
+            </div>
 
-                    <div class="col-lg-4 mb-4 col-12">
-                        <div class="team-thumb d-flex align-items-center">
-                            <img src="images/people/senior-man-wearing-white-face-mask-covid-19-campaign-with-design-space.jpeg"
-                                class="img-fluid custom-circle-image team-image me-4" alt="">
+            <div class="col-12">
+              <div class="tab-content mt-2" id="video-tabContent">
+                <div
+                  class="tab-pane fade show active"
+                  id="video-ads"
+                  role="tabpanel"
+                  aria-labelledby="video-ads-tab"
+                >
+                  <div class="accordion" id="videoAds">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingVideo1">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#videoAds1"
+                          aria-expanded="true"
+                          aria-controls="videoAds1"
+                        >
+                          Product
+                        </button>
+                      </h2>
 
-                            <div class="team-info">
-                                <h5 class="mb-0">Don</h5>
-                                <strong class="text-muted">Product, VP</strong>
+                      <div
+                        id="videoAds1"
+                        class="accordion-collapse collapse"
+                        data-bs-parent="#videoAds"
+                      >
+                        <div class="accordion-body row">
+                          <div class="col-lg-4 col-12 mb-3">
+                            <div class="product-thumb">
+                              <iframe
+                                src="https://player.vimeo.com/video/987591450?h=ba6a0ccfdd"
+                                width="100%"
+                                height="300"
+                                loading="lazy"
+                                frameborder="0"
+                                allow="autoplay; fullscreen; picture-in-picture"
+                                allowfullscreen
+                              ></iframe>
+
+                              <div class="product-info d-flex">
+                                <div>
+                                  <h5 class="product-title mb-0">
+                                    <a class="product-title-link"
+                                      >Ads Product 1</a
+                                    >
+                                  </h5>
+                                </div>
+                              </div>
                             </div>
-                        </div>
-                    </div>
+                          </div>
 
-                    <div class="col-lg-4 mb-4 col-12">
-                        <div class="team-thumb d-flex align-items-center">
-                            <img src="images/people/portrait-british-woman.jpeg"
-                                class="img-fluid custom-circle-image team-image me-4" alt="">
+                          <div class="col-lg-4 col-12 mb-3">
+                            <div class="product-thumb">
+                              <iframe
+                                src="https://player.vimeo.com/video/987592412?h=cea2cfccbc"
+                                width="100%"
+                                height="300"
+                                loading="lazy"
+                                frameborder="0"
+                                allow="autoplay; fullscreen; picture-in-picture"
+                                allowfullscreen
+                              ></iframe>
 
-                            <div class="team-info">
-                                <h5 class="mb-0">Kelly</h5>
-                                <strong class="text-muted">Marketing</strong>
+                              <div class="product-info d-flex">
+                                <div>
+                                  <h5 class="product-title mb-0">
+                                    <a class="product-title-link"
+                                      >Ads Product 2</a
+                                    >
+                                  </h5>
+                                </div>
+                              </div>
                             </div>
-                        </div>
-                    </div>
+                          </div>
 
-                    <div class="col-lg-4 mb-lg-0 mb-4 col-12">
-                        <div class="team-thumb d-flex align-items-center">
-                            <img src="images/people/beautiful-woman-face-portrait-brown-background.jpeg"
-                                class="img-fluid custom-circle-image team-image me-4" alt="">
+                          <div class="col-lg-4 col-12">
+                            <div class="product-thumb">
+                              <iframe
+                                src="https://player.vimeo.com/video/987659882?h=8667d5ac03"
+                                width="100%"
+                                height="300"
+                                loading="lazy"
+                                frameborder="0"
+                                allow="autoplay; fullscreen; picture-in-picture"
+                                allowfullscreen
+                              ></iframe>
 
-                            <div class="team-info">
-                                <h5 class="mb-0">Marie</h5>
-                                <strong class="text-muted">Founder</strong>
+                              <div class="product-info d-flex">
+                                <div>
+                                  <h5 class="product-title mb-0">
+                                    <a class="product-title-link"
+                                      >Ads Product 3</a
+                                    >
+                                  </h5>
+                                </div>
+                              </div>
                             </div>
+                          </div>
                         </div>
+                      </div>
                     </div>
 
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#videoAds3"
+                          aria-expanded="true"
+                          aria-controls="videoAds3"
+                        >
+                          Service
+                        </button>
+                      </h2>
+
+                      <div
+                        id="videoAds3"
+                        class="accordion-collapse collapse"
+                        data-bs-parent="#videoAds"
+                      >
+                        <div class="accordion-body row">
+                          <div class="col-lg-4 col-12 mb-3">
+                            <div class="product-thumb">
+                              <iframe
+                                src="https://player.vimeo.com/video/987661121?h=1f982a8234"
+                                width="100%"
+                                height="300"
+                                loading="lazy"
+                                frameborder="0"
+                                allow="autoplay; fullscreen; picture-in-picture"
+                                allowfullscreen
+                              ></iframe>
+
+                              <div class="product-info d-flex">
+                                <div>
+                                  <h5 class="product-title mb-0">
+                                    <a class="product-title-link"
+                                      >Ads Service 1</a
+                                    >
+                                  </h5>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-lg-4 col-12 mb-3">
+                            <div class="product-thumb">
+                              <iframe
+                                width="100%"
+                                height="300"
+                                src="https://www.youtube.com/embed/WAOXIo4PP5A?si=HqaK0CtJQs4choqj"
+                                title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen
+                                loading="lazy"
+                              ></iframe>
+
+                              <div class="product-info d-flex">
+                                <div>
+                                  <h5 class="product-title mb-0">
+                                    <a class="product-title-link"
+                                      >Ads Service 2</a
+                                    >
+                                  </h5>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-lg-4 col-12">
+                            <div class="product-thumb">
+                              <iframe
+                                width="100%"
+                                height="300"
+                                src="https://www.youtube.com/embed/Gz-T6dn4C8A?si=bfNmxnbgyMS7cF9O"
+                                title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen
+                                loading="lazy"
+                              ></iframe>
+
+                              <div class="product-info d-flex">
+                                <div>
+                                  <h5 class="product-title mb-0">
+                                    <a class="product-title-link"
+                                      >Ads Service 3</a
+                                    >
+                                  </h5>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#videoAds2"
+                          aria-expanded="true"
+                          aria-controls="videoAds2"
+                        >
+                          Course
+                        </button>
+                      </h2>
+
+                      <div
+                        id="videoAds2"
+                        class="accordion-collapse collapse"
+                        data-bs-parent="#videoAds"
+                      >
+                        <div class="accordion-body row">
+                          <div class="col-lg-4 col-12 mb-3">
+                            <div class="product-thumb">
+                              <iframe
+                                src="https://player.vimeo.com/video/987677265?h=9cc85f0186"
+                                width="100%"
+                                height="300"
+                                loading="lazy"
+                                frameborder="0"
+                                allow="autoplay; fullscreen; picture-in-picture"
+                                allowfullscreen
+                              ></iframe>
+
+                              <div class="product-info d-flex">
+                                <div>
+                                  <h5 class="product-title mb-0">
+                                    <a class="product-title-link"
+                                      >Ads Course 1</a
+                                    >
+                                  </h5>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-lg-4 col-12 mb-3">
+                            <div class="product-thumb">
+                              <iframe
+                                src="https://player.vimeo.com/video/987677499?h=80de9260f3"
+                                width="100%"
+                                height="300"
+                                loading="lazy"
+                                frameborder="0"
+                                allow="autoplay; fullscreen; picture-in-picture"
+                                allowfullscreen
+                              ></iframe>
+
+                              <div class="product-info d-flex">
+                                <div>
+                                  <h5 class="product-title mb-0">
+                                    <a class="product-title-link"
+                                      >Ads Course 2</a
+                                    >
+                                  </h5>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-lg-4 col-12">
+                            <div class="product-thumb">
+                              <iframe
+                                src="https://player.vimeo.com/video/987677700?h=dc2718208b"
+                                width="100%"
+                                height="300"
+                                loading="lazy"
+                                frameborder="0"
+                                allow="autoplay; fullscreen; picture-in-picture"
+                                allowfullscreen
+                              ></iframe>
+
+                              <div class="product-info d-flex">
+                                <div>
+                                  <h5 class="product-title mb-0">
+                                    <a class="product-title-link"
+                                      >Ads Course 3</a
+                                    >
+                                  </h5>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="video-youtube"
+                  role="tabpanel"
+                  aria-labelledby="video-youtube-tab"
+                >
+                  <div class="accordion" id="videoYoutube">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingVideo2">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#videoYoutube1"
+                          aria-expanded="true"
+                          aria-controls="videoYoutube1"
+                        >
+                          Talking Head
+                        </button>
+                      </h2>
+
+                      <div
+                        id="videoYoutube1"
+                        class="accordion-collapse collapse"
+                        data-bs-parent="#videoYoutube"
+                      >
+                        <div class="accordion-body row">
+                          <div class="col-lg-4 col-12 mb-3">
+                            <div class="product-thumb">
+                              <iframe
+                                width="100%"
+                                height="300"
+                                src="https://www.youtube.com/embed/rDrJidt6tT4?si=CmoRNTbm_zB-bTnD"
+                                title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen
+                                loading="lazy"
+                              ></iframe>
+
+                              <div class="product-info d-flex">
+                                <div>
+                                  <h5 class="product-title mb-0">
+                                    <a class="product-title-link"
+                                      >Youtube Talking Head 1</a
+                                    >
+                                  </h5>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-lg-4 col-12 mb-3">
+                            <div class="product-thumb">
+                              <iframe
+                                width="100%"
+                                height="300"
+                                src="https://www.youtube.com/embed/jiYWQdEzNUQ?si=yR1jJsmeSyu2jB7z"
+                                title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen
+                                loading="lazy"
+                              ></iframe>
+
+                              <div class="product-info d-flex">
+                                <div>
+                                  <h5 class="product-title mb-0">
+                                    <a class="product-title-link"
+                                      >Youtube Talking Head 2</a
+                                    >
+                                  </h5>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-lg-4 col-12">
+                            <div class="product-thumb">
+                              <iframe
+                                width="100%"
+                                height="300"
+                                src="https://www.youtube.com/embed/X7ednfPZDaQ?si=tZa8dm9oZM3RI_aF"
+                                title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen
+                                loading="lazy"
+                              ></iframe>
+
+                              <div class="product-info d-flex">
+                                <div>
+                                  <h5 class="product-title mb-0">
+                                    <a class="product-title-link"
+                                      >Youtube Talking Head 3</a
+                                    >
+                                  </h5>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#videoYoutube2"
+                          aria-expanded="true"
+                          aria-controls="videoYoutube2"
+                        >
+                          Faceless
+                        </button>
+                      </h2>
+
+                      <div
+                        id="videoYoutube2"
+                        class="accordion-collapse collapse"
+                        data-bs-parent="#videoYoutube"
+                      >
+                        <div class="accordion-body row">
+                          <div class="col-lg-4 col-12 mb-3">
+                            <div class="product-thumb">
+                              <iframe
+                                width="100%"
+                                height="300"
+                                src="https://www.youtube.com/embed/IvLac_Bqr4E?si=eIt5OsadTLcEEpef"
+                                title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen
+                                loading="lazy"
+                              ></iframe>
+
+                              <div class="product-info d-flex">
+                                <div>
+                                  <h5 class="product-title mb-0">
+                                    <a class="product-title-link"
+                                      >Youtube Faceless 1</a
+                                    >
+                                  </h5>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-lg-4 col-12 mb-3">
+                            <div class="product-thumb">
+                              <iframe
+                                width="100%"
+                                height="300"
+                                src="https://www.youtube.com/embed/G6TIcBqBnzY?si=_Yo1sNVb_uZ3Gve_"
+                                title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen
+                                loading="lazy"
+                              ></iframe>
+
+                              <div class="product-info d-flex">
+                                <div>
+                                  <h5 class="product-title mb-0">
+                                    <a class="product-title-link"
+                                      >Youtube Faceless 2</a
+                                    >
+                                  </h5>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-lg-4 col-12">
+                            <div class="product-thumb">
+                              <iframe
+                                width="100%"
+                                height="300"
+                                src="https://www.youtube.com/embed/N8QD82UXuAc?si=sO6RfQJlHEdYFKuT"
+                                title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen
+                                loading="lazy"
+                              ></iframe>
+
+                              <div class="product-info d-flex">
+                                <div>
+                                  <h5 class="product-title mb-0">
+                                    <a class="product-title-link"
+                                      >Youtube Faceless 3</a
+                                    >
+                                  </h5>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
 
-                <div class="row">
-                    <div class="col-lg-9 mx-auto col-11">
-                        <h4 class="mt-4"><span>Client reviews</span></h4>
+                <div
+                  class="tab-pane fade"
+                  id="video-tiktok"
+                  role="tabpanel"
+                  aria-labelledby="video-tiktok-tab"
+                >
+                  <div class="accordion" id="videoTiktok">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingVideo3">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#videoTiktok1"
+                          aria-expanded="true"
+                          aria-controls="videoTiktok1"
+                        >
+                          Level 1
+                        </button>
+                      </h2>
 
-                        <div class="slick-testimonial">
-                            <div class="slick-testimonial-caption">
-                                <p class="lead">Over three years in business, We’ve had the chance to work on a variety
-                                    of projects, with companies Lorem ipsum dolor sit amet</p>
+                      <div
+                        id="videoTiktok1"
+                        class="accordion-collapse collapse"
+                        data-bs-parent="#videoTiktok"
+                      >
+                        <div class="accordion-body row">
+                          <div class="col-lg-4 col-12 mb-3">
+                            <div class="product-thumb">
+                              <iframe
+                                src="https://player.vimeo.com/video/971406711?h=8c9cf8cb89"
+                                width="100%"
+                                height="300"
+                                loading="lazy"
+                                frameborder="0"
+                                allow="autoplay; fullscreen; picture-in-picture"
+                                allowfullscreen
+                              ></iframe>
 
-                                <div class="slick-testimonial-client d-flex align-items-center mt-4">
-                                    <img src="images/people/senior-man-wearing-white-face-mask-covid-19-campaign-with-design-space.jpeg"
-                                        class="img-fluid custom-circle-image me-3" alt="">
-
-                                    <span>George, <strong class="text-muted">Digital Art Fashion</strong></span>
+                              <div class="product-info d-flex">
+                                <div>
+                                  <h5 class="product-title mb-0">
+                                    <a class="product-title-link"
+                                      >Tiktok–Instagram Level 1</a
+                                    >
+                                  </h5>
                                 </div>
+                              </div>
                             </div>
+                          </div>
 
-                            <div class="slick-testimonial-caption">
-                                <p class="lead">Over three years in business, We’ve had the chance to work on a variety
-                                    of projects, with companies Lorem ipsum dolor sit amet</p>
+                          <div class="col-lg-4 col-12 mb-3">
+                            <div class="product-thumb">
+                              <iframe
+                                src="https://player.vimeo.com/video/971407364?h=26dfb697c1"
+                                width="100%"
+                                height="300"
+                                loading="lazy"
+                                frameborder="0"
+                                allow="autoplay; fullscreen; picture-in-picture"
+                                allowfullscreen
+                              ></iframe>
 
-                                <div class="slick-testimonial-client d-flex align-items-center mt-4">
-                                    <img src="images/people/beautiful-woman-face-portrait-brown-background.jpeg"
-                                        class="img-fluid custom-circle-image me-3" alt="">
-
-                                    <span>Sandar, <strong class="text-muted">Zoom Fashion Idea</strong></span>
+                              <div class="product-info d-flex">
+                                <div>
+                                  <h5 class="product-title mb-0">
+                                    <a class="product-title-link"
+                                      >Tiktok–Instagram Level 2</a
+                                    >
+                                  </h5>
                                 </div>
+                              </div>
                             </div>
+                          </div>
 
-                            <div class="slick-testimonial-caption">
-                                <p class="lead">Over three years in business, We’ve had the chance to work on a variety
-                                    of projects, with companies Lorem ipsum dolor sit amet</p>
+                          <div class="col-lg-4 col-12">
+                            <div class="product-thumb">
+                              <iframe
+                                src="https://player.vimeo.com/video/987585513?h=fd9a0848a5"
+                                width="100%"
+                                height="300"
+                                loading="lazy"
+                                frameborder="0"
+                                allow="autoplay; fullscreen; picture-in-picture"
+                                allowfullscreen
+                              ></iframe>
 
-                                <div class="slick-testimonial-client d-flex align-items-center mt-4">
-                                    <img src="images/people/portrait-british-woman.jpeg"
-                                        class="img-fluid custom-circle-image me-3" alt="">
-
-                                    <span>Marie, <strong class="text-muted">Art Fashion Design</strong></span>
+                              <div class="product-info d-flex">
+                                <div>
+                                  <h5 class="product-title mb-0">
+                                    <a class="product-title-link"
+                                      >Tiktok–Instagram Level 3</a
+                                    >
+                                  </h5>
                                 </div>
+                              </div>
                             </div>
-
-                            <div class="slick-testimonial-caption">
-                                <p class="lead">Over three years in business, We’ve had the chance to work on a variety
-                                    of projects, with companies Lorem ipsum dolor sit amet</p>
-
-                                <div class="slick-testimonial-client d-flex align-items-center mt-4">
-                                    <img src="images/people/woman-wearing-mask-face-closeup-covid-19-green-background.jpeg"
-                                        class="img-fluid custom-circle-image me-3" alt="">
-
-                                    <span>Catherine, <strong class="text-muted">Dress Fashion</strong></span>
-                                </div>
-                            </div>
+                          </div>
                         </div>
+                      </div>
                     </div>
 
-                </div>
-            </div>
-        </section>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#videoTiktok2"
+                          aria-expanded="true"
+                          aria-controls="videoTiktok2"
+                        >
+                          Level 2
+                        </button>
+                      </h2>
 
-        <section id="contact" class="contact section-padding">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <h2 class="mb-4x text-center">Contact me</h2>
-                    </div>
+                      <div
+                        id="videoTiktok2"
+                        class="accordion-collapse collapse"
+                        data-bs-parent="#videoTiktok"
+                      >
+                        <div class="accordion-body row">
+                          <div class="col-lg-4 col-12 mb-3">
+                            <div class="product-thumb">
+                              <iframe
+                                src="https://player.vimeo.com/video/971664091?h=09c21b0d32"
+                                width="100%"
+                                height="300"
+                                loading="lazy"
+                                frameborder="0"
+                                allow="autoplay; fullscreen; picture-in-picture"
+                                allowfullscreen
+                              ></iframe>
 
-                    <div class="col-lg-6 col-12">
-                        <h4 class="mb-4"><span>I love to hear you</span></h4>
-
-                        <img src="images/retail-shop-owner-mask-social-distancing-shopping.jpg" class="img-fluid"
-                            alt="">
-                    </div>
-
-
-                    <div class="col-lg-6 col-12 mt-5 ms-auto contact-grid">
-                        <div class="row">
-                            <div class="col-6 border-end contact-info">
-                                <h6 class="mb-3">My email</h6>
-
-                                <a href="mailto:hello@company.com" class="custom-link">
-                                    hello@company.com
-                                    <i class="bi-arrow-right ms-2"></i>
-                                </a>
+                              <div class="product-info d-flex">
+                                <div>
+                                  <h5 class="product-title mb-0">
+                                    <a class="product-title-link"
+                                      >Tiktok–Instagram Level 4</a
+                                    >
+                                  </h5>
+                                </div>
+                              </div>
                             </div>
+                          </div>
 
-                            <div class="col-6 contact-info">
-                                <h6 class="mb-3">My phone</h6>
+                          <div class="col-lg-4 col-12 mb-3">
+                            <div class="product-thumb">
+                              <iframe
+                                src="https://player.vimeo.com/video/971407924?h=f20143c335"
+                                width="100%"
+                                height="300"
+                                loading="lazy"
+                                frameborder="0"
+                                allow="autoplay; fullscreen; picture-in-picture"
+                                allowfullscreen
+                              ></iframe>
 
-                                <a href="tel:+84" class="custom-link">
-                                    +84-963-243-925
-                                    <i class="bi-arrow-right ms-2"></i>
-                                </a>
+                              <div class="product-info d-flex">
+                                <div>
+                                  <h5 class="product-title mb-0">
+                                    <a class="product-title-link"
+                                      >Tiktok–Instagram Level 5</a
+                                    >
+                                  </h5>
+                                </div>
+                              </div>
                             </div>
+                          </div>
 
-                            <div class="col-6 border-top border-end contact-info">
-                                <h6 class="mb-3">My location</h6>
+                          <div class="col-lg-4 col-12">
+                            <div class="product-thumb">
+                              <iframe
+                                src="https://player.vimeo.com/video/987586195?h=34caa9437d"
+                                width="100%"
+                                height="300"
+                                loading="lazy"
+                                frameborder="0"
+                                allow="autoplay; fullscreen; picture-in-picture"
+                                allowfullscreen
+                              ></iframe>
 
-                                <p class="text-muted">Ho Chi Minh city, Vietnam</p>
+                              <div class="product-info d-flex">
+                                <div>
+                                  <h5 class="product-title mb-0">
+                                    <a class="product-title-link"
+                                      >Tiktok–Instagram Level 6</a
+                                    >
+                                  </h5>
+                                </div>
+                              </div>
                             </div>
-
-                            <div class="col-6 border-top contact-info">
-                                <h6 class="mb-3">My Socials</h6>
-
-                                <ul class="social-icon">
-                                    <li><a href="#" class="social-icon-link bi-messenger"></a></li>
-
-                                    <li><a href="#" class="social-icon-link bi-youtube"></a></li>
-
-                                    <li><a href="#" class="social-icon-link bi-instagram"></a></li>
-
-                                    <li><a href="#" class="social-icon-link bi-whatsapp"></a></li>
-
-                                    <li><a href="#" class="social-icon-link bi-linkedin"></a></li>
-                                </ul>
-                            </div>
+                          </div>
                         </div>
+                      </div>
                     </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#videoTiktok3"
+                          aria-expanded="true"
+                          aria-controls="videoTiktok3"
+                        >
+                          Level 3
+                        </button>
+                      </h2>
+
+                      <div
+                        id="videoTiktok3"
+                        class="accordion-collapse collapse"
+                        data-bs-parent="#videoTiktok"
+                      >
+                        <div class="accordion-body row">
+                          <div class="col-lg-4 col-12 mb-3">
+                            <div class="product-thumb">
+                              <iframe
+                                src="https://player.vimeo.com/video/971405402?h=b982f26937"
+                                width="100%"
+                                height="300"
+                                loading="lazy"
+                                frameborder="0"
+                                allow="autoplay; fullscreen; picture-in-picture"
+                                allowfullscreen
+                              ></iframe>
+
+                              <div class="product-info d-flex">
+                                <div>
+                                  <h5 class="product-title mb-0">
+                                    <a class="product-title-link"
+                                      >Tiktok–Instagram Level 7</a
+                                    >
+                                  </h5>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-lg-4 col-12 mb-3">
+                            <div class="product-thumb">
+                              <iframe
+                                src="https://player.vimeo.com/video/971408283?h=6f41030692"
+                                width="100%"
+                                height="300"
+                                loading="lazy"
+                                frameborder="0"
+                                allow="autoplay; fullscreen; picture-in-picture"
+                                allowfullscreen
+                              ></iframe>
+
+                              <div class="product-info d-flex">
+                                <div>
+                                  <h5 class="product-title mb-0">
+                                    <a class="product-title-link"
+                                      >Tiktok–Instagram Level 8</a
+                                    >
+                                  </h5>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-lg-4 col-12">
+                            <div class="product-thumb">
+                              <iframe
+                                src="https://player.vimeo.com/video/987586539?h=5c6db4a774"
+                                width="100%"
+                                height="300"
+                                loading="lazy"
+                                frameborder="0"
+                                allow="autoplay; fullscreen; picture-in-picture"
+                                allowfullscreen
+                              ></iframe>
+
+                              <div class="product-info d-flex">
+                                <div>
+                                  <h5 class="product-title mb-0">
+                                    <a class="product-title-link"
+                                      >Tiktok–Instagram Level 9</a
+                                    >
+                                  </h5>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
+                <div
+                  class="tab-pane fade"
+                  id="video-others"
+                  role="tabpanel"
+                  aria-labelledby="video-others-tab"
+                >
+                  <div class="accordion" id="videoOthers">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingVideo4">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#videoOthers1"
+                          aria-expanded="true"
+                          aria-controls="videoOthers1"
+                        >
+                          Memory
+                        </button>
+                      </h2>
+
+                      <div
+                        id="videoOthers1"
+                        class="accordion-collapse collapse"
+                        data-bs-parent="#videoOthers"
+                      >
+                        <div class="accordion-body row">
+                          <div class="col-lg-4 col-12 mb-3">
+                            <div class="product-thumb">
+                              <iframe
+                                width="100%"
+                                height="300"
+                                src="https://www.youtube.com/embed/Ch9nkAqCd3I?si=xFLrEPd61Z1w1ktM"
+                                title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen
+                                loading="lazy"
+                              ></iframe>
+
+                              <div class="product-info d-flex">
+                                <div>
+                                  <h5 class="product-title mb-0">
+                                    <a class="product-title-link"
+                                      >Others Memory 1</a
+                                    >
+                                  </h5>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-lg-4 col-12 mb-3">
+                            <div class="product-thumb">
+                              <iframe
+                                width="100%"
+                                height="300"
+                                src="https://www.youtube.com/embed/EgkaZcFFWDw?si=apZLQC8h3dR8wD9z"
+                                title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen
+                                loading="lazy"
+                              ></iframe>
+
+                              <div class="product-info d-flex">
+                                <div>
+                                  <h5 class="product-title mb-0">
+                                    <a class="product-title-link"
+                                      >Others Memory 2</a
+                                    >
+                                  </h5>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-lg-4 col-12">
+                            <div class="product-thumb">
+                              <iframe
+                                width="100%"
+                                height="300"
+                                src="https://www.youtube.com/embed/xCiMpY3ZokI?si=wCOGYodilt6lWyqK"
+                                title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen
+                                loading="lazy"
+                              ></iframe>
+
+                              <div class="product-info d-flex">
+                                <div>
+                                  <h5 class="product-title mb-0">
+                                    <a class="product-title-link"
+                                      >Others Memory 3</a
+                                    >
+                                  </h5>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#videoOthers2"
+                          aria-expanded="true"
+                          aria-controls="videoOthers2"
+                        >
+                          Webinar
+                        </button>
+                      </h2>
+
+                      <div
+                        id="videoOthers2"
+                        class="accordion-collapse collapse"
+                        data-bs-parent="#videoOthers"
+                      >
+                        <div class="accordion-body row">
+                          <div class="col-lg-4 col-12 mb-3">
+                            <div class="product-thumb">
+                              <iframe
+                                width="100%"
+                                height="300"
+                                src="https://www.youtube.com/embed/27j7i3VTQG8?si=YbKC4Siaf8qXvmGU"
+                                title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen
+                                loading="lazy"
+                              ></iframe>
+
+                              <div class="product-info d-flex">
+                                <div>
+                                  <h5 class="product-title mb-0">
+                                    <a class="product-title-link"
+                                      >Others Webinar 1</a
+                                    >
+                                  </h5>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-lg-4 col-12 mb-3">
+                            <div class="product-thumb">
+                              <iframe
+                                width="100%"
+                                height="300"
+                                src="https://www.youtube.com/embed/iQfeRqjyyNk?si=MmJX57vcVDt05xu8"
+                                title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen
+                                loading="lazy"
+                              ></iframe>
+
+                              <div class="product-info d-flex">
+                                <div>
+                                  <h5 class="product-title mb-0">
+                                    <a class="product-title-link"
+                                      >Others Webinar 2</a
+                                    >
+                                  </h5>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-lg-4 col-12">
+                            <div class="product-thumb">
+                              <iframe
+                                width="100%"
+                                height="300"
+                                src="https://www.youtube.com/embed/D44LSa2bBOk?si=E_FyUvuKY51_NR79"
+                                title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen
+                                loading="lazy"
+                              ></iframe>
+
+                              <div class="product-info d-flex">
+                                <div>
+                                  <h5 class="product-title mb-0">
+                                    <a class="product-title-link"
+                                      >Others Webinar 3</a
+                                    >
+                                  </h5>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#videoOthers3"
+                          aria-expanded="true"
+                          aria-controls="videoOthers3"
+                        >
+                          Testimonial
+                        </button>
+                      </h2>
+
+                      <div
+                        id="videoOthers3"
+                        class="accordion-collapse collapse"
+                        data-bs-parent="#videoOthers"
+                      >
+                        <div class="accordion-body row">
+                          <div class="col-lg-4 col-12 mb-3">
+                            <div class="product-thumb">
+                              <iframe
+                                width="100%"
+                                height="300"
+                                src="https://www.youtube.com/embed/NhVS2d6Ywho?si=RXyIwRjZK7ld1Ile"
+                                title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen
+                                loading="lazy"
+                              ></iframe>
+
+                              <div class="product-info d-flex">
+                                <div>
+                                  <h5 class="product-title mb-0">
+                                    <a class="product-title-link"
+                                      >Others Testimonial 1</a
+                                    >
+                                  </h5>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-lg-4 col-12 mb-3">
+                            <div class="product-thumb">
+                              <iframe
+                                width="100%"
+                                height="300"
+                                src="https://www.youtube.com/embed/E8lQ8mvUkMw?si=yba1myTpFJMCdZIm"
+                                title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen
+                                loading="lazy"
+                              ></iframe>
+
+                              <div class="product-info d-flex">
+                                <div>
+                                  <h5 class="product-title mb-0">
+                                    <a class="product-title-link"
+                                      >Others Testimonial 2</a
+                                    >
+                                  </h5>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-lg-4 col-12">
+                            <div class="product-thumb">
+                              <iframe
+                                width="100%"
+                                height="300"
+                                src="https://www.youtube.com/embed/RNXlZPMuFhs?si=w7DseuwNGLDq2iJM"
+                                title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen
+                                loading="lazy"
+                              ></iframe>
+
+                              <div class="product-info d-flex">
+                                <div>
+                                  <h5 class="product-title mb-0">
+                                    <a class="product-title-link"
+                                      >Others Testimonial 3</a
+                                    >
+                                  </h5>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
+
+      <section id="client" class="team section-padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h2 class="mb-5 text-center">My clients</h2>
+            </div>
+
+            <div class="col-lg-6 mb-6 col-12">
+              <div class="team-thumb">
+                <h5 class="mb-3 text-center">Individual</h5>
+                <div>
+                  <img
+                    src="images/client/Emily Keating.webp"
+                    class="img-fluid team-image"
+                    alt=""
+                  />
+                  <img
+                    src="images/client/Kash Khan.webp"
+                    class="img-fluid team-image"
+                    alt=""
+                  />
+                  <img
+                    src="images/client/Tony Horton.webp"
+                    class="img-fluid team-image"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <img
+                    src="images/client/Marley Jaxx.webp"
+                    class="img-fluid team-image"
+                    alt=""
+                  />
+                  <img
+                    src="images/client/Robert Kim.webp"
+                    class="img-fluid team-image"
+                    alt=""
+                  />
+                  <img
+                    src="images/client/Vicky.webp"
+                    class="img-fluid team-image"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 mb-6 col-12">
+              <div class="team-thumb row" style="margin-bottom: 0.35rem">
+                <h5 class="mb-3 text-center">Company</h5>
+                <div class="company">
+                  <img
+                    src="images/client/afa_final_square.webp"
+                    class="img-fluid center"
+                    alt=""
+                  />
+                  <img
+                    src="images/client/logo-compress.webp"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="company">
+                  <img
+                    src="images/client/IMC.webp"
+                    class="img-fluid center"
+                    alt=""
+                  />
+                  <img
+                    src="images/client/Portervac Logo.webp"
+                    class="img-fluid center"
+                    alt=""
+                  />
+                  <img src="images/client/logo.webp" class="img-fluid" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-9 mx-auto col-11">
+              <h4 class="mt-5"><span>Client reviews</span></h4>
+
+              <div class="slick-testimonial">
+                <div class="slick-testimonial-caption">
+                  <p class="lead">
+                    Khang always delivered on ahead of time and good quality
+                    videos. He is very communicative and easy to work with. I
+                    highly recommend Khang for any video editing or production
+                    needs. Khang has been a valuable asset to our team,
+                    consistently delivering high-quality videos ahead of
+                    schedule. His strong communication skills make working with
+                    him a breeze and he always goes above and beyond to meet our
+                    expectations.
+                  </p>
+
+                  <div
+                    class="slick-testimonial-client d-flex align-items-center mt-4"
+                  >
+                    <strong class="white-color">Gabriel</strong>
+                  </div>
+                </div>
+
+                <div class="slick-testimonial-caption">
+                  <p class="lead">
+                    Khang did a phenomenal job editing my business's promotional
+                    video, and I'm excited to share it with my North American
+                    clients/prospects. He sent me a first draft within 24 hours,
+                    I requested a few minor edits, and then he finished those
+                    edits within 3 hours. I will definitely go straight to Khang
+                    again when I need a new video edited.
+                  </p>
+
+                  <div
+                    class="slick-testimonial-client d-flex align-items-center mt-4"
+                  >
+                    <strong class="white-color">Arjun Reddy</strong>
+                  </div>
+                </div>
+
+                <div class="slick-testimonial-caption">
+                  <p class="lead">
+                    Khang has been exceptional to work with from the start. With
+                    very little instruction Khang went away and produced a
+                    beautiful video of our holiday, which everyone that has seen
+                    it loved.Thank you for the care, thought and effort you put
+                    in. You have great talent.
+                  </p>
+
+                  <div
+                    class="slick-testimonial-client d-flex align-items-center mt-4"
+                  >
+                    <strong class="white-color">Marty Newkirk</strong>
+                  </div>
+                </div>
+
+                <div class="slick-testimonial-caption">
+                  <p class="lead">
+                    Goes above and beyond with the details, very please and
+                    communication is great!
+                  </p>
+
+                  <div
+                    class="slick-testimonial-client d-flex align-items-center mt-4"
+                  >
+                    <strong class="white-color">Cameron Alford</strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact section-padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h2 class="mb-4x text-center">Contact me</h2>
+            </div>
+
+            <div class="col-lg-6 col-12">
+              <h4 class="mb-4"><span>I love to hear you</span></h4>
+
+              <img src="images/khang-2.webp" class="img-fluid" alt="" />
+            </div>
+
+            <div class="col-lg-6 col-12 mt-5 ms-auto contact-grid">
+              <div class="row">
+                <div class="col-6 border-end contact-info">
+                  <h6 class="mb-3">My email</h6>
+
+                  <a
+                    href="mailto:hqk3003@gmail.com"
+                    class="custom-link lowercase-text"
+                  >
+                    hqk3003@gmail.com
+                    <i class="bi-arrow-right ms-2"></i>
+                  </a>
+                </div>
+
+                <div class="col-6 contact-info">
+                  <h6 class="mb-3">My phone</h6>
+
+                  <a href="tel:+84353175547" class="custom-link">
+                    +84 353 175 547
+                    <i class="bi-arrow-right ms-2"></i>
+                  </a>
+                </div>
+
+                <div class="col-6 border-top border-end contact-info">
+                  <h6 class="mb-3">My location</h6>
+
+                  <p class="text-muted">Ho Chi Minh city, Vietnam</p>
+                </div>
+
+                <div class="col-6 border-top contact-info">
+                  <h6 class="mb-3">My Socials</h6>
+
+                  <ul class="social-icon">
+                    <li>
+                      <a
+                        href="https://www.facebook.com/khanghuynheditor"
+                        target="_blank"
+                        class="social-icon-link bi-messenger"
+                      ></a>
+                    </li>
+
+                    <li>
+                      <a
+                        href="https://www.youtube.com/@khanghuynheditor"
+                        target="_blank"
+                        class="social-icon-link bi-youtube"
+                      ></a>
+                    </li>
+
+                    <li>
+                      <a
+                        href="https://www.instagram.com/khanghuynheditor"
+                        target="_blank"
+                        class="social-icon-link bi-instagram"
+                      ></a>
+                    </li>
+
+                    <li>
+                      <a
+                        href="https://wa.me/84353175547"
+                        class="social-icon-link bi-whatsapp"
+                        target="_blank"
+                      ></a>
+                    </li>
+
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/in/khanghuynheditor"
+                        target="_blank"
+                        class="social-icon-link bi-linkedin"
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer class="site-footer">
-        <div class="container">
-            <div class="row">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-10 me-auto mb-4">
+            <h4 class="text-white" style="height: 80px">
+              <a href="index.html">Khang Huynh</a> Editor
+            </h4>
+            <p class="copyright-text text-muted">
+              Copyright ©
+              <script>
+                document.write(/\d{4}/.exec(Date())[0]);
+              </script>
+              <strong>Khang Huynh</strong>
+            </p>
+          </div>
 
-                <div class="col-lg-3 col-10 me-auto mb-4">
-                    <h4 class="text-white mb-3"><a href="index.html">Khang Huynh</a> Editor</h4>
-                    <p class="copyright-text text-muted mt-lg-5 mb-4 mb-lg-0">Copyright ©
-                        <script>document.write(/\d{4}/.exec(Date())[0])</script> <strong>Khang Huynh</strong>
-                    </p>
+          <div class="col-lg-5 col-8">
+            <h5 class="text-white mb-3">Sitemap</h5>
 
-                </div>
+            <ul class="footer-menu d-flex flex-wrap">
+              <li class="footer-menu-item">
+                <a href="#about" class="footer-menu-link">About</a>
+              </li>
 
-                <div class="col-lg-5 col-8">
-                    <h5 class="text-white mb-3">Sitemap</h5>
+              <li class="footer-menu-item">
+                <a href="#video" class="footer-menu-link">My services</a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="#client" class="footer-menu-link">Clients</a>
+              </li>
 
-                    <ul class="footer-menu d-flex flex-wrap">
+              <li class="footer-menu-item">
+                <a href="#contact" class="footer-menu-link">Contact</a>
+              </li>
+            </ul>
+          </div>
 
-                        <li class="footer-menu-item"><a href="#about" class="footer-menu-link">About</a></li>
+          <div class="col-lg-3 col-4">
+            <h5 class="text-white mb-3">Social</h5>
 
-                        <li class="footer-menu-item"><a href="#video" class="footer-menu-link">Videos</a></li>
-                        <li class="footer-menu-item"><a href="#client" class="footer-menu-link">Clients</a></li>
+            <ul class="social-icon">
+              <li>
+                <a
+                  href="https://www.facebook.com/khanghuynheditor"
+                  target="_blank"
+                  class="social-icon-link bi-messenger"
+                ></a>
+              </li>
 
+              <li>
+                <a
+                  href="https://www.youtube.com/@khanghuynheditor"
+                  target="_blank"
+                  class="social-icon-link bi-youtube"
+                ></a>
+              </li>
 
-                        <li class="footer-menu-item"><a href="#contact" class="footer-menu-link">Contact</a></li>
-                    </ul>
-                </div>
+              <li>
+                <a
+                  href="https://www.instagram.com/khanghuynheditor"
+                  target="_blank"
+                  class="social-icon-link bi-instagram"
+                ></a>
+              </li>
 
-                <div class="col-lg-3 col-4">
-                    <h5 class="text-white mb-3">Social</h5>
+              <li>
+                <a
+                  href="https://wa.me/84353175547"
+                  class="social-icon-link bi-whatsapp"
+                  target="_blank"
+                ></a>
+              </li>
 
-                    <ul class="social-icon">
-                        <li><a href="#" class="social-icon-link bi-messenger"></a></li>
-
-                        <li><a href="#" class="social-icon-link bi-youtube"></a></li>
-
-                        <li><a href="#" class="social-icon-link bi-instagram"></a></li>
-
-                        <li><a href="#" class="social-icon-link bi-whatsapp"></a></li>
-
-                        <li><a href="#" class="social-icon-link bi-linkedin"></a></li>
-                    </ul>
-                </div>
-
-            </div>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/khanghuynheditor"
+                  target="_blank"
+                  class="social-icon-link bi-linkedin"
+                ></a>
+              </li>
+            </ul>
+          </div>
         </div>
+      </div>
     </footer>
 
     <!-- JAVASCRIPT FILES -->
@@ -1650,7 +1847,5 @@
     <script src="js/jQuery.headroom.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/custom.js"></script>
-
-</body>
-
+  </body>
 </html>

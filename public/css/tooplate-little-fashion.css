@@ -8,13 +8,13 @@ https://www.tooplate.com/view/2127-little-fashion
 
 
 /*---------------------------------------
-  CUSTOM PROPERTIES ( VARIABLES )             
+  CUSTOM PROPERTIES ( VARIABLES )
 -----------------------------------------*/
 :root {
-  --white-color:                #FFFFFF;
-  --primary-color:              #FF4400;
+  --white-color:                #000000;
+  --primary-color:              #00ffff;
   --section-bg-color:           #f0f8ff;
-  --dark-color:                 #000000;
+  --dark-color:                 #ffffff;
   --grey-color:                 #d0d1d1;
   --p-color:                    #717275;
 
@@ -31,6 +31,8 @@ https://www.tooplate.com/view/2127-little-fashion
   --font-weight-normal:         400;
   --font-weight-bold:           700;
   --font-weight-black:          900;
+
+  --company-width: 47.8%;
 }
 
 body,
@@ -50,12 +52,12 @@ html {
 
 body {
     background: var(--white-color);
-    font-family: var(--body-font-family);    
+    font-family: var(--body-font-family);
     position: relative;
 }
 
 /*---------------------------------------
-  TYPOGRAPHY               
+  TYPOGRAPHY
 -----------------------------------------*/
 
 h2,
@@ -112,7 +114,7 @@ p {
   font-weight: var(--font-weight-light);
 }
 
-a, 
+a,
 button {
   touch-action: manipulation;
   transition: all 0.3s;
@@ -137,7 +139,7 @@ a:hover {
 }
 
 /*---------------------------------------
-  CUSTOM LINK               
+  CUSTOM LINK
 -----------------------------------------*/
 .custom-link {
   color: var(--p-color);
@@ -172,7 +174,7 @@ strong {
 }
 
 /*---------------------------------------
-  PRE LOADER               
+  PRE LOADER
 -----------------------------------------*/
 .preloader {
   position: fixed;
@@ -215,7 +217,7 @@ strong {
 }
 
 /*---------------------------------------
-  CUSTOM BUTTON & ICON              
+  CUSTOM BUTTON & ICON
 -----------------------------------------*/
 .custom-btn {
   background: var(--dark-color);
@@ -275,7 +277,7 @@ strong {
 }
 
 /*---------------------------------------
-  DIV SEPARATOR               
+  DIV SEPARATOR
 -----------------------------------------*/
 .div-separator {
   position: relative;
@@ -305,7 +307,7 @@ strong {
 }
 
 /*---------------------------------------
-  FULL IMAGE               
+  FULL IMAGE
 -----------------------------------------*/
 .full-image-img {
   display: block;
@@ -324,7 +326,7 @@ strong {
 }
 
 /*---------------------------------------
-  NAVIGATION               
+  NAVIGATION
 -----------------------------------------*/
 .navbar {
   background: var(--white-color);
@@ -392,7 +394,7 @@ strong {
   transform: translateY(10px);
 }
 
-.navbar .nav-link.active::after, 
+.navbar .nav-link.active::after,
 .navbar .nav-link:hover::after {
   opacity: 1;
   -webkit-transform: translateY(0px);
@@ -405,7 +407,7 @@ strong {
   color: var(--primary-color);
 }
 
-.nav-link:focus, 
+.nav-link:focus,
 .nav-link:hover {
   color: var(--p-color);
 }
@@ -477,7 +479,7 @@ strong {
 }
 
 /*---------------------------------------
-  SITE HEADER              
+  SITE HEADER
 -----------------------------------------*/
 .site-header {
   background-color: var(--section-bg-color);
@@ -511,7 +513,7 @@ strong {
 }
 
 /*---------------------------------------
-  SLICK SLIDESHOW               
+  SLICK SLIDESHOW
 -----------------------------------------*/
 @media (min-width: 992px) {
   .slick-slideshow {
@@ -549,7 +551,7 @@ strong {
 
 .slick-bottom .container {
   position: absolute;
-  top: 40%;
+  top: 51%;
   left: 50%;
   transform: translate(-50%, -40%);
 }
@@ -643,7 +645,7 @@ strong {
 }
 
 /*---------------------------------------
-  CUSTOM CIRCLE IMAGES               
+  CUSTOM CIRCLE IMAGES
 -----------------------------------------*/
 
 .custom-circle-image {
@@ -652,13 +654,39 @@ strong {
   height: 55px;
 }
 
-.custom-circle-image.team-image {
-  width: 85px;
-  height: 85px;
+.team-image {
+  width: 31.6%;
+  height: auto;
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+  margin-top: 0.35rem;
+  margin-bottom: 0.35rem;
+}
+
+.company {
+  display: inline-block;
+}
+
+.company {
+  width: var(--company-width);
+ }
+
+.company:last-child {
+ width: calc(100% - var(--company-width));
+}
+
+.company img {
+  background-color: #ffffff;
+  width: 100%;
+  height: auto;
+}
+
+.company .center {
+  margin-bottom: 3rem;
 }
 
 /*---------------------------------------
-  TESTIMONIAL               
+  TESTIMONIAL
 -----------------------------------------*/
 .slick-testimonial .slick-list,
 .slick-testimonial .slick-track {
@@ -717,11 +745,11 @@ strong {
 
 .slick-testimonial .slick-dots li:hover,
 .slick-testimonial .slick-dots .slick-active {
-  background: var(--dark-color);
+  background: var(--primary-color);
 }
 
 /*---------------------------------------
-  SECTION               
+  SECTION
 -----------------------------------------*/
 section {
   content-visibility: auto;
@@ -738,7 +766,7 @@ section {
 }
 
 /*---------------------------------------
-  ABOUT               
+  ABOUT
 -----------------------------------------*/
 .about .nav-pills .nav-item {
   width: 100%;
@@ -754,7 +782,7 @@ section {
 }
 
 .about .nav-pills .nav-link:hover,
-.about .nav-pills .nav-link.active, 
+.about .nav-pills .nav-link.active,
 .about .nav-pills .show>.nav-link {
   background: transparent;
   border-left-color: var(--primary-color);
@@ -762,7 +790,7 @@ section {
 }
 
 /*---------------------------------------
-  FAQ ACCORDION               
+  FAQ ACCORDION
 -----------------------------------------*/
 .accordion-item {
   background-color: transparent;
@@ -804,14 +832,14 @@ button:focus:not(:focus-visible) {
 }
 
 /*---------------------------------------
-  TEAM MEMBERS               
+  TEAM MEMBERS
 -----------------------------------------*/
 
 .team-thumb {
   background: var(--white-color);
   position: relative;
   border: 0.2rem var(--grey-color) solid;
-  border-radius: 1rem;
+  border-radius: 0.4rem;
   padding: 42px 32px;
 }
 
@@ -863,7 +891,7 @@ button:focus:not(:focus-visible) {
 }
 
 /*---------------------------------------
-  SKILL - PROGRESS BAR               
+  SKILL - PROGRESS BAR
 -----------------------------------------*/
 .skill-thumb strong {
   display: inline-block;
@@ -889,7 +917,7 @@ button:focus:not(:focus-visible) {
 }
 
 /*---------------------------------------
-  PRODUCT               
+  PRODUCT
 -----------------------------------------*/
 .front-product {
   background: var(--section-bg-color);
@@ -965,7 +993,7 @@ button:focus:not(:focus-visible) {
 }
 
 /*---------------------------------------
-  CONTACT              
+  CONTACT
 -----------------------------------------*/
 .contact-info {
   padding: 40px;
@@ -996,7 +1024,7 @@ button:focus:not(:focus-visible) {
 }
 
 /*---------------------------------------
-  SITE FOOTER               
+  SITE FOOTER
 -----------------------------------------*/
 .site-footer {
   background: var(--dark-color);
@@ -1037,7 +1065,7 @@ button:focus:not(:focus-visible) {
 }
 
 /*---------------------------------------
-  SOCIAL ICON               
+  SOCIAL ICON
 -----------------------------------------*/
 .social-icon {
   margin: 0;
@@ -1064,7 +1092,7 @@ button:focus:not(:focus-visible) {
 }
 
 /*---------------------------------------
-  RESPONSIVE STYLES               
+  RESPONSIVE STYLES
 -----------------------------------------*/
 @media screen and (max-width: 1200px) {
   h1 {
@@ -1195,4 +1223,30 @@ button:focus:not(:focus-visible) {
 
 .contact-grid .row{
   align-content: center;
+}
+
+.lowercase-text {
+  text-transform: lowercase;
+}
+
+.white-color {
+  color: var(--dark-color);
+}
+
+.accordion-button {
+  color: var(--dark-color);
+}
+
+.accordion-button {
+  font-weight: 600;
+}
+
+#video .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  background-color: transparent;
+  border-bottom: 0.2rem var(--dark-color) solid;
+}
+
+#video .nav-item {
+ margin-left: 1.5rem;
+ margin-right: 1.5rem;
 }
