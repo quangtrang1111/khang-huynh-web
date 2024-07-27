@@ -31,6 +31,8 @@ https://www.tooplate.com/view/2127-little-fashion
   --font-weight-normal:         400;
   --font-weight-bold:           700;
   --font-weight-black:          900;
+
+  --company-width: 47.8%;
 }
 
 body,
@@ -549,7 +551,7 @@ strong {
 
 .slick-bottom .container {
   position: absolute;
-  top: 40%;
+  top: 51%;
   left: 50%;
   transform: translate(-50%, -40%);
 }
@@ -652,9 +654,35 @@ strong {
   height: 55px;
 }
 
-.custom-circle-image.team-image {
-  width: 85px;
-  height: 85px;
+.team-image {
+  width: 31.6%;
+  height: auto;
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+  margin-top: 0.35rem;
+  margin-bottom: 0.35rem;
+}
+
+.company {
+  display: inline-block;
+}
+
+.company {
+  width: var(--company-width);
+ }
+
+.company:last-child {
+ width: calc(100% - var(--company-width));
+}
+
+.company img {
+  background-color: #ffffff;
+  width: 100%;
+  height: auto;
+}
+
+.company .center {
+  margin-bottom: 3rem;
 }
 
 /*---------------------------------------
@@ -717,7 +745,7 @@ strong {
 
 .slick-testimonial .slick-dots li:hover,
 .slick-testimonial .slick-dots .slick-active {
-  background: var(--dark-color);
+  background: var(--primary-color);
 }
 
 /*---------------------------------------
@@ -811,7 +839,7 @@ button:focus:not(:focus-visible) {
   background: var(--white-color);
   position: relative;
   border: 0.2rem var(--grey-color) solid;
-  border-radius: 1rem;
+  border-radius: 0.4rem;
   padding: 42px 32px;
 }
 
@@ -1195,4 +1223,16 @@ button:focus:not(:focus-visible) {
 
 .contact-grid .row{
   align-content: center;
+}
+
+.lowercase-text {
+  text-transform: lowercase;
+}
+
+.white-color {
+  color: var(--dark-color);
+}
+
+.accordion-button {
+  color: var(--dark-color);
 }
