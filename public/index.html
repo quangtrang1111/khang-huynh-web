@@ -26,6 +26,34 @@
     <link rel="stylesheet" href="css/slick.css" />
 
     <link href="css/tooplate-little-fashion.css" rel="stylesheet" />
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-W4PP3246K8"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-W4PP3246K8');
+    </script>
+    <script>
+      window.addEventListener('load', function() {
+        const hash = window.location.hash.substring(1);
+        if (hash === 'ads' || hash === 'youtube' || hash === 'tiktok' || hash === 'others') {
+          setTimeout(() => {
+            const video = document.getElementById('video');
+            if (!video) {
+              return;
+            }
+            video.scrollIntoView({ behavior: 'smooth' });
+            const element = document.getElementById('video-' + hash + '-tab');
+            if (!element) {
+              return;
+            }
+            element.click();            
+          }, 500);
+        }
+      });
+    </script>
   </head>
 
   <body>
